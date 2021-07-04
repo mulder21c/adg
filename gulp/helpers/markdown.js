@@ -12,7 +12,8 @@ const plugins = {
   samp: require('markdown-it-samp'),
   responsive: require('@gerhobbelt/markdown-it-responsive'),
   replacements: require('markdown-it-replacements'),
-  toc: require('markdown-it-toc-done-right')
+  toc: require('markdown-it-toc-done-right'),
+  mContainer: require('markdown-it-container')
 }
 
 const slugify = text => {
@@ -65,6 +66,7 @@ module.exports = rootDir => filePath => {
       .use(plugins.kbd)
       .use(plugins.samp)
       .use(plugins.replacements)
+      .use(plugins.mContainer, 'translator-comment')
       .use(plugins.responsive, {
         responsive: {
           srcset: {

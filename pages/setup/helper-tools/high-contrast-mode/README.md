@@ -1,23 +1,23 @@
 ---
-navigation_title: "High Contrast Mode"
+navigation_title: "고대비 모드"
 position: 3
 changed: "2018-04-06"
 ---
 
-# Windows High Contrast Mode
+# Windows 고대비 모드
 
-**Windows high contrast mode (Win HCM) changes the colours on the screen to a specific high-contrast scheme. It is used by visually impaired people. It is a useful tool to ensure that visual information is not conveyed with purely decorative styles.**
+**Windows 고대비 모드(Win HCM)는 화면을 특정 고대비 구성으로 변경합니다. 이것은 시각 장애인이 사용합니다. 시각 정보가 순수하게 장식적인 스타일로 전달되지 않도록 하는데 유용한 도구 입니다.**
 
-## Installation
+## 설치
 
-HCM is a built-in feature of the Windows operating systems and does not need to be installed separately.
+HCM은 Windows 운영 체제의 내장 기능이고 별도로 설치할 필요가 없습니다.
 
-## Usage
+## 사용법
 
-You can toggle HCM using the keyboard shortcut `Alt + Shift + PrtScn`. Alternatively, you can manually go to `Control Panel` -> `Change the theme` and select one of the "High Contrast" themes.
+키보드 단축키 `Alt + Shift + PrtScn`를 사용하여 HCM을 전환할 수 있습니다. 또는, `설정` -> `접근성` -> `고대비`로 가서 `고대비 켜기`를 수동으로 전환할 수 있습니다.
 
-![Windows HCM themes](_media/windows-hcm-themes.png)
+![Windows HCM 테마](_media/windows-hcm-themes.png)
 
-Now take a look at your website in Edge and ensure that all visual information is still perceivable. For example, when the currently active link in a navigation is marked using a symbol, this symbol still needs to be displayed in HCM. Also, the keyboard focus always needs to be clearly perceivable. Do not use Firefox or Chrome when you are testing HCM.
+이제 엣지에서 웹 사이트를 살펴보고 모든 시각 정보가 여전히 인식 가능한지 확인해야 합니다. 예를 들어, 내비게이션의 현재 활성 링크가 기호를 사용하여 표시되는 경우, 이 기호는 HCM에서 여전히 표시되어야 합니다. 또한 키보드 초점은 항상 명확하게 인식 할 수 있어야 합니다. HCM을 테스트 하고 있는 경우 파이어폭스나 크롬을 사용하지 마세요.
 
-![The WCAG 2.0 website in high contrast mode](_media/the-wcag-20-website-in-high-contrast-mode.png)
+![고대비 모드에서의 WCAG 2.0 웹사이트](_media/the-wcag-20-website-in-high-contrast-mode.png)

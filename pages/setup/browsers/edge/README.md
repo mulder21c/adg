@@ -4,22 +4,22 @@ position: 3
 changed: "2021-03-22"
 ---
 
-# Microsoft Edge installation and configuration
+# 마이크로소프트 엣지 설치 및 구성
 
-Edge replaces Microsoft's legacy browser Internet Explorer 11 (IE 11) and is based on the same [Chromium](https://www.chromium.org/Home) open-source code base as Google Chrome.
+엣지는 마이크로소프트의 레거시 브라우저 인터넷 익스플로러 11 (IE 11)를 대체하며 구글 크롬처럼 오픈 소스 코드 기반의 동일한 [크로미움](https://www.chromium.org/Home)을 기반으로 합니다.
 
-![Edge logo](_media/edge-logo.png){.no-border}
+![엣지 로고](_media/edge-logo.png){.no-border}
 
-## Installation
+## 설치
 
-[Edge](https://www.microsoft.com/edge) is the default browser on new Windows versions. However, it is available for other platforms like macOS and Linux, too.
+[엣지](https://www.microsoft.com/edge)는 새로운 Windows 버전의 기본 브라우저입니다. 하지만, macOS 및 리눅스 같은 다른 플랫폼에서도 사용할 수 있습니다.
 
-## Configuration
+## 구성
 
-### Add-Ons
+### 애드온
 
-Most Chrome extensions [should be installable](https://www.howtogeek.com/411830/how-to-install-google-chrome-extensions-in-microsoft-edge/) in Edge, too. Extensions like [axe](https://microsoftedge.microsoft.com/addons/detail/axe-web-accessibility-t/kcenlimkmjjkdfcaleembgmldmnnlfkn) are additionally distributed directly via Microsoft's [Edge Add-ons page](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home).
+대부분의 크롬 확장 프로그램이 엣지에도 [설치 될 수 있습니다](https://www.howtogeek.com/411830/how-to-install-google-chrome-extensions-in-microsoft-edge/). [axe](https://microsoftedge.microsoft.com/addons/detail/axe-web-accessibility-t/kcenlimkmjjkdfcaleembgmldmnnlfkn) 같은 확장 프로그램은 부가적으로 마이크로소프트의 [엣지 애드온 페이지](https://microsoftedge.microsoft.com/addons/Microsoft-Edge-Extensions-Home)를 통해 직접 배포됩니다.
 
 ## IE 11
 
-The installation and setup instructions for IE 11 are [still available here](../internet-explorer-11/).
+IE 11에 대한 설치 및 구성 지침은 [여기에서 계속 사용 볼 수 있습니다](../internet-explorer-11/).

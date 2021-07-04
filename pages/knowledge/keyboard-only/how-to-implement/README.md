@@ -41,8 +41,8 @@ Then, implement any functionality as needed by adding appropriate events, for ex
         - But it won't catch a screen reader's `Enter` key, as pressing `Enter` with a screen reader running will typically fire a `click` event instead.
         - As described above, it's usually better to listen to a `click` event here.
     - Be aware that many keys are only available on full-fledged keyboards of desktop computers.
-        - Be sure not to bind functionality to such specific keys (for example modifier keys like `Alt`), or provide alternative ways to use the functionality.
-        - Even arrow keys aren't available on many devices, for example touch screen smartphones.
+        - Be sure not to bind functionality to such specific keys (for example 보조 키s like `Alt`), or provide alternative ways to use the functionality.
+        - Even 방향 키s aren't available on many devices, for example touch screen smartphones.
         - Especially combinations of keys can be really hard (if not impossible) to be pressed by motor impaired people.
 
 ### Standards over custom
@@ -53,7 +53,7 @@ In our opinion, there are very few cases which really need optimisation for keyb
 
 Another facet of keyboard optimisation is setting the focus properly if needed.
 
-This can be explained especially well by looking at the dialog pattern. Indeed, our guide has such a dialog implementaion available as a fully working example, so if you are really curious and want to learn more about this, skip ahead and read [Dialog widget (or: modal, popup, lightbox, alert)](/examples/widgets/dialog).
+This can be explained especially well by looking at the dialog pattern. Indeed, our guide has such a dialog implementaion available as a fully working example, so 정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Dialog widget (or: modal, popup, lightbox, alert)](/examples/widgets/dialog).
 
 ### Setting focus to an element
 
@@ -118,4 +118,4 @@ However, in our dialog example above, leaving the focus in the darkened (or even
 
 Optimising a website for keyboard only usage needs some awareness of the typical pitfalls. Providing proper HTML elements helps truly a lot already, but the full deal requires some additional developer skills.
 
-All of the code examples in our guide are fully accessible to the most common assistive software and devices and can provide you a lot of inspiration. If you are really curious and want to learn more about this, skip ahead and read [Examples of accessibility patterns](/examples).
+All of the code examples in our guide are fully accessible to the most common assistive software and devices and can provide you a lot of inspiration. 정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Examples of accessibility patterns](/examples).

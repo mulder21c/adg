@@ -1,0 +1,7 @@
+{
+  "[markdown]": {
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.excludeLanguages": [],
+    "files.trimTrailingWhitespace": false
+  }  
+}

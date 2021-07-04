@@ -4,8 +4,8 @@ position: 1
 changed: "2018-05-06"
 ---
 
-# Welcome to the Accessibility Developer Guide!
+# 접근성 개발자 지침에 오신 여러분 환영합니다!
 
-**If you want to learn more about designing and implementing fully accessible websites, you've come to the right place.**
+**완전히 접근 할 수 있는 웹 사이트를 설계하고 구현하는 방법에 대해 자세히 알아보고 싶다면, 제대로 찾아 오셨습니다.**
 
-All our contents are based strictly on the [W3C](https://www.w3.org/)'s Web Content Accessibility Guidelines ([WCAG 2.1](https://www.w3.org/TR/WCAG21/)). Our goal is to provide you with the simplest and most effective best practices on how to design, implement and test websites with accessibility in mind.
+우리의 모든 콘텐츠는 [W3C](https://www.w3.org/)의 웹 콘텐츠 접근성 지침([WCAG 2.1](https://www.w3.org/TR/WCAG21/))을 엄격하게 따릅니다. 우리의 목표는 접근성을 염두해두고 웹 사이트를 설계하고 구현하고 테스트 하는 방법에 대한 가장 간단하고 효과적인 모범 사례를 제공하는 것입니다.

@@ -1,75 +1,75 @@
 ---
-navigation_title: "Colour is not enough"
+navigation_title: "색상은 충분하지 않습니다"
 position: 6
 changed: "2019-12-15"
 ---
 
-# Colour is not enough
+# 색상은 충분하지 않습니다
 
-**The purpose of contrast is allowing people to see and distinguish different parts of an interface. Colour is an important factor in this context, but it has some clear limitations. That is why relying on colour alone is usually not a good strategy.**
+**대비의 목적은 사람들이 인터페이스의 다른 부분을 보고 구별할 수 있도록 하는 것입니다. 색상은 이 맥락에서 중요한 요소이지만, 몇 가지 분명한 한계가 있습니다. 그것이 색상에만 의존하는 것이 일반적으로 좋은 전략이 아닌 이유입니다.**
 
-## Limitations of colour contrast
+## 색상 대비의 한계
 
-Colour is a great tool for separating foreground from background. However, there are many cases where being visible against a background is not enough. Different elements of a user interface or a component also have to be distinguishable *from each other.* And while finding a combination of two colours with sufficient contrast is easy, finding three, four or even more colours with sufficient contrast from each other quickly becomes impractical if not impossible. 
+색상은 배경에서 전경을 분리하는 좋은 도구 입니다. 하지만, 배경에 대비하여 보이는 것만으로는 충분하지 않는 겨우가 많습니다. 유저 인터페이스나 컴포넌트의 다른 엘리먼트들도 *서로로부터* 구별 될 수 있어야 합니다. 그리고 충분한 대비를 가진 두 색상의 조합을 찾는 것이 쉬운 반면, 서로 대비가 충분한 3, 4, 그 이상의 색상 조합을 찾는 것은 불가능하지는 않더라도 금방 터무니 없는 일이 됩니다. 
 
-The [Web Content Accessibility Guidelines' rule on the use of colour](https://www.w3.org/TR/WCAG21/#use-of-color) therefore states:
+[웹 콘텐트 접근성 지침'의 색상 사용의 규칙](https://www.w3.org/TR/WCAG21/#use-of-color)은 따라서 다음과 같이 명시합니다:
 
-> Colour is not used as the only visual means of conveying information, indicating an action, prompting a response, or distinguishing a visual element. 
+> 색상은 정보 전달, 동작 표시, 응답 유도, 시각적 요소 구분의 유일한 시각적 수단으로 사용되지 않습니다.
 
-## Example: current page indicator
+## 예: 현재 페이지 표시기
 
-The following picture shows a navigation bar that could be placed at the top of the page.
+다음 그림은 페이지 상단에 위치될 수 있는 내비게이션 바를 보여줍니다.
 
-![navigation bar with one active item, visually differentiated by its blue text colour](_media/nav-with-active-colour.png)
+![파란 색상으로 시각적으로 차별화 된 한 개 활성 항목을 가진 내비게이션 바](_media/nav-with-active-colour.png)
 
-While all the labels have sufficient contrast against the white background, the colour of the active "Shop" label and the colour of the inactive labels around it only have a contrast ratio of `1.7:1`. This is how this same navigation would look in grayscale. 
+모든 레이블은 흰 배경고 ㅏ충분한 대비를 가지지만, 활성 "Shop" 레이블의 색상과 그 주변의 비활성 레이블의 색상은 `1.7:1`의 명암비만을 가집니다. 이것은 이 동일한 내비게이션이 회색조로 보이는 방식입니다. 
 
-![the same navigation bar with one active item but monochrome](_media/nav-with-active-colour-bw.png)
+![한 개 활성 항목을 가지지만 흑백인 동일한 내비게이션 바](_media/nav-with-active-colour-bw.png)
 
-Someone who can't perceive colour differences very well – because of their eye sight, their screen or the surrounding light – will have a hard time spotting which item is currently selected.
+시야, 화면, 주변 광으로 인해 색상 차이를 잘 인식하지 못하는 사람들은 현재 선택된 항목을 파악하기가 어렵습니다.
 
-This problem can be solved by adding one or more visual alterations to the active element that have nothing to do with changing its colour. E.g. one could change the font weight or underline the active label.
+이 문제는 색상을 변경과는 무관한 활성 엘리먼트에 하나 이상의 시각적 변경을 추가하여 해결 될 수 있습니다. 예를 들어, 글꼴 두께나 아래 밑줄을 활성 레이블에 변경할 수 있습니다.
 
-![navigation bar with one active item, visually differentiated by its blue text colour, bold font and underline](_media/nav-with-active-colour-bold-underline.png)
+![파란색 색상, 굵은 글꼴, 아래 밑줄로 시각적으로 차별화 된 한 개 활성 항목을 가진 내비게이션 바](_media/nav-with-active-colour-bold-underline.png)
 
-Now, even with no colour perception at all, the item is still clearly distinguishable.
+이제, 색상 인식이 전혀 되지 않아도, 항목이 여전히 명확하게 구별할 수 있습니다.
 
-![The same navigation bar with one bold and underlined active item but monochrome](_media/nav-with-active-colour-bold-underline-bw.png)
+![하나의 굵은 글꼴과 밑줄 쳐진 활성 항목을 가지지만 흑백인 동일한 내비게이션 바](_media/nav-with-active-colour-bold-underline-bw.png)
 
-Finally, let's keep in mind that beyond visual appearance the differentiation also has to be encoded in the underlying markup. It should provide adequate semantic information to clearly differentiate elements also on a non-visual level. One way to do this is to add a visually hidden text snipped that indicates the active status of the label.
+마지막으로, 시각적인 모양을 넘어서 차별화는 근본적인 마크업에도 인코드 되어야 함을 명심하세요. 비시각적 수준에서도 엘리먼트를 명확하게 구별하기 위해 적절한 의미 정보가 제공되어야 합니다. 이를 수행하는 한 가지 방법은 레이블의 활성 상태를 나타내는 시각적으로 숨겨진 텍스트를 추가하는 것입니다.
 
-For more information about hiding elements visually while keeping them accessible to screen readers see [Hiding elements visually by moving them off-screen](/examples/hiding-elements/visually/).
+엘리먼트를 시각적으로 숨기는 것을 유지하면서 스크린리더가 접근 할 수 있도록 하는 방법에 대한 더 자세한 내용을 보려면 [화면 밖으로 이동시켜 엘리먼트를 시각적으로 숨기기](/examples/hiding-elements/visually/)를 참고하세요.
 
-## Example: pie chart
+## 예: 파이 차트
 
-Visual charts are a frequent example where colours are used to convey meaning. For example this simple pie chart with three differently coloured sections, labelled in a separate legend.
+시각적 차트는 의미를 전달하는데 사용되는 색상이 사용되는 빈번한 예입니다. 예를 들어 세 가지 다른 색상 색션이 있는 이 간단한 파이 차트는 별도의 범례에 레이블이 지정 됩니다.
 
 - Apples (red)
 - Oranges (orange)
 - Bananas (yellow)
 
-![Pie chart with three colour-coded sections, labelled in a separate legend](_media/pie-chart-only-colour.png)
+![별도 범례에 레이블 된 세 색상 코드 섹션을 가진 파이 차트](_media/pie-chart-only-colour.png)
 
-The three colours of the pie chart don't have enough contrast against the white background. And just as important in this case is the fact that they also don't have enough contrast *against each other*.
+파이 차트의 세 색상은 흰 배경과 대비가 충분하지 않습니다. 그리고 이 경우에 *서로에 대해* 대비가 충분하지 않은 것도 사실입니다.
 
 - Red/orange = `1.5:1`
 - Orange/yellow = `1.4:1`
 - Yellow/red = `2.4:1`
 
-This is due to the fact that contrast is primarily about difference in luminance and not about difference in tone (for more information see [Calculate colour contrast](/knowledge/colours-and-contrast/how-to-calculate/)).
+이것은 대비가 주로 톤의 차이가 아니라 주로 휘도 차이에 대한 것이기 때문입니다 (더 자세한 내용은 [색상 대비 계산](/knowledge/colours-and-contrast/how-to-calculate/)을 참고하세요).
 
-First, let's add a clearly visible outline around the coloured areas.
+먼저, 색칠 된 영역 주변에 명확하게 보이는 윤곽선을 추가해 봅니다.
 
-![The same pie chart with a dark outline around the coloured areas](_media/pie-chart-colour-outline.png)
+![색칠 된 영역 주변에 어두운 윤곽선을 가진 동일한 파이 차트](_media/pie-chart-colour-outline.png)
 
-Now, the pie chart stands out against the white background and it's clear that it has in fact three sections. But due to the low contrast between the three colours it can still be very challenging for certain people to assign the labels to the sections in the pie chart.
+이제, 파이 차트가 흰 배경에 대해 눈에 띄고 실제로 세 섹션을 가짐이 분명합니다. 하지만 세 색상 간 낮은 대비 때문에 특정 사람들에게는 파이 차트의 섹션에 레이블을 할당하는 것은 여전히 매우 어려울 수 있습니다.
 
-Adding distinct visual patterns can make the visual link accessible.
+뚜렷한 시각적 패턴을 추가하는 것이 시각적 링크를 접근 가능하게 할 수 있습니다.
 
-![The same pie chart, now with dots filling one section and lines filling another](_media/pie-chart-colour-outline-pattern.png)
+![동일한 파이 차트이지만, 이제 점으로 채워진 섹션과 선으로 채워진 다른 하나를 가집니다](_media/pie-chart-colour-outline-pattern.png)
 
-Or in charts as simple as this one it's also possible to forego a separate legend and place the labels directly inside the sections. As long as the contrast between the label and the background colour of the section satisfies the [contrast requirements for text](/knowledge/colours-and-contrast/text/) this might be the most straight-forward solution.
+또는 이와 같이 간단한 차트에서는 별도의 범례를 무시하고 섹션 내부에 직접 레이블을 비치 할 수도 있습니다. 섹션의 배경색과 레이블 간의 대비가 [텍스트에 대한 대비 요구사항](/knowledge/colours-and-contrast/text/)을 만족하는 한 이것이 가장 직관적인 해결책일 수 있습니다.
 
-![The same pie chart, without patterns but with the labels placed inside the three sections](_media/pie-chart-colour-outline-labels-inline.png)
+![패턴은 없지만 세 섹션 내부에 레이블이 배치된 동일한 파이 차트](_media/pie-chart-colour-outline-labels-inline.png)
 
-Obviously, not all charts are as simple as this example. For more complex information graphics it's fine (or even necessary) to focus on the elements which are essential to understand the message of the visualisation. 
+분명히, 모든 차트가 이 예제만큼 간단하지 않습니다.더 복잡한 정보 그래픽의 경우 시각화의 메세지를 이해하는데 필수적인 엘리먼트에 초점을 맞추는 것이 좋습니다 (필요하기도 합니다). 

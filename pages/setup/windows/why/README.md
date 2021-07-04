@@ -4,30 +4,30 @@ position: 1
 changed: "2020-04-30"
 ---
 
-# Why Windows is a must-have for accessible website development
+# 접근 가능한 웹 사이트 개발에 Windows가 반드시 필요한 이유
 
-**To ensure a website is accessible to as many users as possible, it is important to make sure it is working on the most widespread assistive software. At the time being, most users with special needs have Windows-specific software running. That's the reason why you need to have a Windows environment available to you, whether you like it or not.**
+**웹사이트에 가능한 많은 사용자가 접근 가능하도록 하려면, 가장 널리 사용되는 보조 소프트웨에에서 동작하는지 확인하는 것이 중요합니다. 현재 특정 요구 사항이 있는 대부분의 사용자는 Windows용 소프트웨어를 실행하고 있습니다. 이것이 원하든 원하지 않은 Windows 환경을 사용 할 수 있어야 하는 이유입니다.**
 
-## Indispensable software
+## 필수 소프트웨어
 
-From this day on, you will be developing websites with accessibility in mind. Congratulations! Luckily, you can keep using all the software you already know and love.
+오늘부터, 접근성을 염두에 두고 웹 사이트를 개발하게 될 것입니다. 축하합니다! 다행헤도, 이미 알고 있고 좋아하는 모든 소프트웨어를 계속 사용할 수 있습니다.
 
-But to ensure your websites' accessibility, you need some Windows-specific software, especially regarding desktop screen readers (if you are really curious and want to learn more about them, skip ahead and read [Relevant combinations of screen readers and browsers](/knowledge/screen-readers/relevant-combinations)).
+그러나 웹 사이트의 접근성을 보장하려면, 특히 데스크탑 스크린리더와 관련된 Windows용 소프트웨어가 필요합니다 (정말 궁금하고 이에 대해 더 배우고 싶다면, [스크린리더와 브라우저의 관련 조합](/knowledge/screen-readers/relevant-combinations)으로 건너뛰어 읽어보세요).
 
-## Virtual machine: necessary or not?
+## 가상 머신: 필요할까 아닐까?
 
-If you're not running Windows yourself already, the use of a [virtual machine (Wikipedia.org)](https://en.wikipedia.org/wiki/Virtual_machine) (VM) to run all the needed Windows software is an obvious necessity.
+Windows를 이미 직접 실행하고 있지 않다면, 필요한 모든 Windows 소프트웨어를 실행하기 위해 [가상 머신 (Wikipedia.org)](https://en.wikipedia.org/wiki/Virtual_machine) (VM)의 사용이 명백히 필요합니다.
 
-And even if Windows is your used operating system already, we still advise you to run a dedicated Windows system inside a VM. This prevents pollution of your main environment, and also most probably disruption of your daily workflow (for example, by a constantly talking synthesised screen reader voice, aggressively commenting on everything you are doing while developing).
+Windows가 이미 사용 중인 운영 체제인 경우에도, VM 내에 전용 Widnows 시스템을  실행하는 것이 여전히 좋습니다. 이는 주 환경의 오염을 방지하고 일상적인 작업 흐름이 중단 되는 것을 (예를 들어, 지속적으로 낭독하는 합성 스크린리더 음성, 개발 하는 동안 수행하는 모든 일에 대한 지나친 언급) 방지할 수 있습니다.
 
-## Other desktop operating systems
+## 다른 데스크탑 운영 체제
 
-While macOS is heavily gaining popularity within the community of the blind, it is still much less used than Windows. And to this day, Linux is not a popular player at all in this respect.
+macOS는 시각 장애인 커뮤니티에서 큰 인기를 얻고 있지만 여전히 Windows 보다 훨씬 적게 사용됩니다. 그리고 오늘날까지 리눅스는 이런 면에서 전혀 있기 있는 선수가 아닙니다.
 
-## Mobile operating systems
+## 모바일 운영 체제
 
-For people with special needs, smartphones open a whole new world of possibilities. As such, mobile operating systems are becoming more and more important.
+특정 요구 사항이 있는 사람들을 위해, 스마트폰은 완전히 새로운 가능성의 세계를 엽니다. 따라서 모바일 운영 체제가 점점 더 중요해지고 있습니다.
 
-In the current state, our guide focuses solely on desktop software. For future revisions, however, we are planning to add mobile-specific information.
+현재 상태에서는, 본 지침은 데스크탑 소프트웨어에만 초점을 맞추고 있습니다. 그러나 향후 개정을 위해 모바일용 정보를 추가할 계획입니다.
 
-For the time being, be assured that when following our guidelines and optimising your websites for assistive software on desktop, assistive software on mobile platforms will benefit as well.
+당분간은 지침을 따르고 데스크탑의 보조 소프트웨어에 대해 웹 사이트를 최적화 할 때 모바일 플랫폼의 보조 소프트웨어도 도움이 될 것입니다.

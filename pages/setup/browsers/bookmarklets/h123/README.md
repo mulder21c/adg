@@ -6,24 +6,24 @@ changed: "2018-04-06"
 
 # h123
 
-**This bookmarklet provides an efficient way to display the current webpage's heading outline, very close to how screen readers do. In addition, it has some pretty useful features like displaying potentially incorrectly hidden headings.**
+**이 북마클릿은 스크린리더가 수행하는 것과 매우 가까운 방법으로, 현재 웹 페이지의 제목 개요를 표시하는 효율적인 방법을 제공합니다. 또한 잠재적으로 올바르지 않게 숨겨진 헤딩을 표시하는 것과 같은 몇 가지 유용한 기능이 있습니다.**
 
-## Installation
+## 설치
 
-Go to [hinderlingvolkart.github.io/h123](https://hinderlingvolkart.github.io/h123) and get the bookmarklet there.
+[hinderlingvolkart.github.io/h123](https://hinderlingvolkart.github.io/h123)로 가서 북마클릿을 가져오세요.
 
 ## Usage
 
-Activate the bookmarklet by clicking on it. A popover outlining the page's heading structure is then displayed on the top right of the page.
+북마클릿을 클릭하여 활성화 하세요. 페이지의 제목 구조의 개요를 보여주는 팝오버가 페이지 우측 상단에 표시됩니다.
 
-![The h123 bookmarklet in action](_media/the-h123-bookmarklet-in-action.png)
+![h123 북마클릿 동작](_media/the-h123-bookmarklet-in-action.png)
 
-The popover has some very useful options and features:
+팝오버는 매우 유용한 옵션과 기능이 있습니다:
 
-- Activate "Mark visually hidden" to see which of the present headings are visually hidden (moved out of the viewport).
-- Activate "Show hidden" to also display headings that are completely hidden.
-    - This is useful for debugging headings that may have been completely hidden unintentionally.
-- Activate "Hover-Highlight" to visually display the heading that corresponds to the element highlighted by the mouse cursor.
-    - This is useful for debugging whether the current heading outline is sensible: each and every element on the page must belong to a proper heading.
+- 현재 제목 중 가시적으로 숨겨진 (뷰포트 밖으로 이동 된) 것을 확인하려면 "Mark visually hidden"을 활성화 하세요.
+- 완전히 숨겨진 제목도 표시하려면 "Show hidden"을 활성화하세요.
+    - 이는 의도하지 않게 완전시 숨겨졌을 수 있는 제목을 디버깅하는데 유용합니다.
+- 마우스 커서로 강조 표시 된 엘리먼트에 해당하는 제목을 가시적으로 표시하려면 "Hover-Highlight"를 활성화 하세요.
+    - 이는 현재 제목 개요가 적절한 지 여부를 디버깅하는데 유용합니다: 페이지의 각 그리고 모든 엘리먼트는 적절한 제목에 속해야 합니다.
 
-The bookmarklet supports both native `<h#>` tags and `role="heading" aria-level="..."` elements.
+북마클릿은 기본 `<h#>`과 `role="heading" aria-level="..."` 엘리먼트를 모두 지원합니다.

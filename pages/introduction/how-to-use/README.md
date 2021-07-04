@@ -1,48 +1,48 @@
 ---
-navigation_title: "How to use"
+navigation_title: "사용 방법"
 position: 1
 changed: "2019-11-12"
 ---
 
-# How to use this guide
+# 본 지침 사용 방법
 
-**This guide aims to provide a comprehensive resource for both beginners looking for a pragmatic way to dive into the world of accessibility, as well as seasoned experts wanting to extend their knowledge and embrace new inspirations. Here you will find out how to read through our guide, and how to stay up to date.**
+**본 지침은 접근성의 세계로 뛰어들 실용적인 방법을 찾고 있는 입문자와 지식을 확장하고 새로운 영감을 받아들이려는 노련한 전문가 모두에게 포괄적인 리소스를 제공하는 것을 목표로 합니다. 지침을 읽는 방법과 최신 상태를 유지하는 방법을 확인할 수 있습니다.**
 
-## Reading through this guide
+## 본 지침 읽기
 
-This guide encompasses a huge amount of knowledge about various topics of both theoretical and practical nature, all of which are highly relevant to developing accessible websites.
+본 지침에는 접근 가능한 웹 사이트 개발과 관련이 높은 이론적 및 실제적 성격의 다양한 주제에 대한 방대한 양의 지식이 포함되어 있습니다.
 
-The main audience are web developers, but testing staff, content editors, project managers, etc. may also benefit from it.
+주 대상은 웹 개발자이지만, 테스트 직원, 콘텐츠 편집자, 프로젝트 관리자 등도 혜택을 누릴 수 있습니다.
 
-To get the most out of this guide, let us explain to you how to use it best, and how you can contribute to it.
+본 지침을 최대한 활용하도록, 지침을 가장 잘 사용하는 방법과 지침에 기여할 수 있는 방법에 대해 설명드립니다..
 
-### Language
+### 언어
 
-This guide is written in a rather shorthand and technical English, so good knowledge of [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), [JavaScript](https://en.wikipedia.org/wiki/JavaScript) and commonly used browser technologies is assumed.
+본 지침은 다소 짧고 기술적인 영어로 작성되어 있으므로, [HTML](https://en.wikipedia.org/wiki/HTML), [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets), [JavaScript](https://en.wikipedia.org/wiki/JavaScript) 및 일반적으로 사용되는 브라우저 기술에 대한 충분한 지식이 있다고 가정합니다.
 
-### Structure
+### 구조
 
-Inspired by the layout of traditional books, we worked hard to give this guide a sensible structure.
+전통 서적의 레이아웃에서 영감을 받아, 본 지침에 합리적인 구조를 제공하기 위해 노력했습니다.
 
-The following content elements exist:
+다음과 같은 콘텐츠 요소가 있습니다:
 
-1. The top level elements are called **parts**. You are currently in the part titled "Introduction to our guide". In the navigation, short titles are used to save space and enhance skim reading; the current part's short title is "Introduction".
-2. Every part contains several **chapters**. You are currently in the chapter titled "How to use this guide"; its short title is "How to use".
-3. Most chapters contain several **pages** (and sometimes even sub pages), although the current chapter does not have any of these.
+1. 최상위 요소를 **파트**라고 합니다. 현재 "가이드 소개"라는 파트에 있습니다. 내비게이션에서는, 짧은 제목이 공간을 절약하고 훑어보기를 향상시키는데 사용됩니다. 현재 파트의 짧은 이름은 "소개" 입니다.
+2. 모든 파트에는 여러 **챕터**가 포함됩니다. 현재 "본 지침 사용 방법"이라는 챕터에 있습니다; 짧은 제목은 "사용 방법" 입니다.
+3. 대부분의 챕터는 여러 **페이지**가 (때로는 하위 페이지까지) 포함되지만, 현재 챕터에는 이러한 페이지가 없습니다.
 
-At the bottom of each content element, links to its sub-elements (chapters or pages) are displayed (if there are any). They are similar to the links in the content navigation sidebar, but display both the title and lead text of an element, supporting skim reading and providing quick navigation to interesting elements.
+각 콘텐츠 요소의 하단에, 하위 요소(챕터 혹은 페이지)로의 링크가 표시됩니다. 콘텐츠 내비게이션 사이드 바의 링크와 유사하지만, 훑어보기를 지원하고 관심있는 요소로의 빠른 탐색을 지원하도록 요소의 제목과 서문이 표시됩니다.
 
-### Browsing vs. full read
+### 찾아보기 vs. 전체 읽기
 
-Being a comprehensive tutorial, the contents of this guide build up on each other sequentially. So we highly recommend you to start reading from the very beginning, then make your way continuously through the guide (use the **Previous** and **Next** links at the bottom to do so). Alas, internal links between different contents are provided sparingly.
+본 지침의 내용은 포괄적인 튜토리얼이므로 각각 서로 순차적으로 통합됩니다. 따라서 처음부터 읽기를 시작하여 계속해서 지침을 따라가는 것을 강권합니다 (하단의 **이전**과 **다음** 링크 사용). 아아, 다른 콘텐츠 간의 내부 링크는 거의 제공되지 않습니다.
 
-However, we have given our best to make the individual content elements as self-standing and self-explanatory as possible. This allows you to browse them on their own as a quick reference. Use the content navigation sidebar to quickly access different contents.
+그러나 개별 콘텐츠 요소를 가능한 독립적이고 자명하게 만들기 위해 최선을 다했습니다. 이를 통해 빠른 참조로 직접 찾아볼 수 있습니다. 콘텐츠 내비게이션 사이드 바를 사용하여 다른 콘텐츠에 빠르게 접근할 수 있습니다.
 
-## Staying up to date
+## 최신 상태 유지
 
-To be informed about new or updated contents, related activities (events) or similar, subscribe to our social media channels:
+새로운 혹은 업데이트 된 콘텐츠, 관련 활동 (이벤트) 또는 이와 유사한 것들에 대한 정보를 받으려면 SNS 채널을 구독하세요:
 
 - Facebook: [AccessibilityDeveloperGuide](https://www.facebook.com/AccessibilityDeveloperGuide)
 - Twitter: [A11yDevGuide](https://twitter.com/A11yDevGuide)
 
-We also provide a content feed: [RSS](/feed/rss.xml).
+콘텐츠 피드도 제공합니다: [RSS](/feed/rss.xml).

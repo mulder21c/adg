@@ -37,7 +37,7 @@ Use cases:
 - If you know that the login form on a specific page is introduced by the 2nd heading on level 3, simply press 2 times the `3` key.
 - If you open a page on Wikipedia and want to read its main content, simply press the `1` key once (because the first `<h1>` is the main content's heading).
 
-If you are really curious and want to learn more about this, skip ahead and read [How to handle headings](/examples/headings/handling).
+정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [How to handle headings](/examples/headings/handling).
 
 ### Reading links
 
@@ -63,7 +63,7 @@ Press `T` to move to tables, then press `Ctrl + Alt + Left/Right/Up/Down` to nav
 
 Use case: to compare the price of several products in a table, simply navigate the column "price" by pressing `Ctrl + Alt + Down`.
 
-If you are really curious and want to learn more about this, skip ahead and read [How to handle tables](/examples/tables/handling).
+정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [How to handle tables](/examples/tables/handling).
 
 ### Reading forms
 
@@ -71,7 +71,7 @@ Press `F` to move to form elements, or press `B` to move to buttons. Add `Shift`
 
 Use case: to quickly find the login form, simply search for the respective input field by pressing `F`.
 
-If you are really curious and want to learn more about this, skip ahead and read [How to handle forms](/examples/forms/handling).
+정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [How to handle forms](/examples/forms/handling).
 
 ## Autofocus addendum
 

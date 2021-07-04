@@ -1,50 +1,50 @@
 ---
-navigation_title: "Colour contrast for UI components"
+navigation_title: "UI 컴포넌트에 대한 색상 대비"
 position: 4
 changed: "2019-12-15"
 ---
 
-# Colour contrast for user interface components
+# 유저 인터페이스 컴포넌트에 대한 색상 대비
 
-**"User Interface (UI) components" are interactive elements, ranging from simple buttons and input fields to complex UI widgets. Just as for text there is a general minimal contrast level that needs to be reached to make their functionality and content accessible.**
+**"유저 인터페이스 (UI) 컴포턴트"는 간단한 버튼과 입력 필드로부터 복잡한 UI 위젯에 이르는 대화형 엘리먼트입니다. 텍스트와 마찬가지로 그것의 기능과 콘텐츠가 접근 가능하도록 도달해야 하는 일반적인 최소 대비 수준이 있습니다.**
 
-## Minimal contrast ratio
+## 최소 명암비
 
-Version 2.1 of the Web Content Accessibility Guidelines (WCAG) specify a [minimal contrast ratio of `3:1` against adjacent colour(s) for all UI components](https://www.w3.org/TR/WCAG21/#non-text-contrast).
+웹 콘텐츠 접근성 지침(WCAG)의 2.1 버전은 [모든 UI 컴포넌트에 인접한 색상에 `3:1`의 최소 명암비 minimal contrast ratio of `3:1` against adjacent colour(s) for all UI components](https://www.w3.org/TR/WCAG21/#non-text-contrast)를 지정합니다.
 
-## Example: form controls
+## 예: 폼 컨트롤
 
-The following screenshot shows a very simple contact form.
+다음 스크린샷은 매우 간단한 문의 양식을 보여줍니다
 
-![Low contrast form](_media/low-contrast-form.png)
+![낮은 대비 양식](_media/low-contrast-form.png)
 
-The borders of the input fields have an insufficient contrast ratio of `1.5:1`. Because of that, certain users may have a hard time finding the input fields and enter information. 
+입력 필드의 테두리는 `1.5:1`의 충분하지 않은 명암비를 가집니다. 이로 인해, 특정 사용자는 입력 필드를 찾고 정보를 입력하는데 여려움을 겪을 수 있습니다.
 
-The background colour of the "Send message" button also has a low contrast ratio (again, it is `1.5:1`). This will make it harder to identify the button by its typical shape. However, the button label adds a lot of valuable information, making this case less urgent or even negligible: it has sufficient contrast, it offers a clear invitation to interact by using a verb (which is better than a generic "OK") and its visual appearance (font, size) is different from the other text elements surrounding it.
+"Send message" 버튼의 배경색 역시 낮은 명암비 (역시, `1.5:1`)을 가집니다. 이는 일반적인 모양으로 버튼을 식별하기가 더 어려워집니다. 하지만, 버튼 레이블이 중요한 정보를 많이 추가하므로, 이 경우를 덜 긴급하거나 무시할 수 있게 합니다: 충분한 대비를 가지고, 동사를 사용하여 상호작용을 위해 명확한 유도를 제공하며 (일반적인 "OK"보다 낫습니다) 시각적 모양 (글꼴, 크기)는 주변의 다른 텍스트 엘리먼트들과 다릅니다.
 
-## Example: tablists
+## 예: 탭 목록
 
-Tablists convey visually that there is a list of items, and that the content for the currently active item is displayed below. The button-like appearance of the tabs indicates that a user can select them to display their associated content. In the overall visual arrangement the active tab is put "in front" of the inactive tabs, indicating that only one tab can be selected at a time (unlike other visual patterns such as tags or labels).
+탭 목록은 항목 목록이 있고, 현재 활성화 된 항목에 대한 콘텐츠가 아래 표시 된다는 것을 시각적으로 전달합니다. 탭의 버튼 같은 모양은 그에 연관 된 콘텐츠를 표시하도록 사용자가 선택할 수 있다는 것을 나타냅니다. 한 번에 하나의 탭만 선택될 수 있음을 나타내도록 (태그나 레이블과 같은 시각적 패턴과 달리) 전체적인 시각적 배열에서 활성화 된 탭은 비활성화 된 탭의 "앞"에 배치됩니다.
 
-The borders of the following tablist have insufficient contrast (`1.5:1`). Users who can't see them might not realise how the different pieces relate to each other and that they can interact with them.
+다음 탭 목록의 테두리는 불충분한 대비(`1.5:1`)를 가집니다. 그것들을 볼 수 없는 사용자는 서로 다른 부분이 어떻게 관련되어 있고 상호 작용할 수 있는지 알아차리지 못할 수 있습니다.
 
-![Low contrast tablist](_media/low-contrast-tablist.png)
+![낮은 대비 탭 목록](_media/low-contrast-tablist.png)
 
-Sometimes, tablists rely on background colours instead of borders to indicate their state and functionality. Although this may look much more obvious, it doesn't solve the problem because the contrast is still the same.
+때로는, 탭 목록이 상태와 기능을 나타내는데 테두리 대신 배경색에 의존합니다. 이것이 훨씬 더 명확해 보일 수 있지만, 대비가 여전히 동일하기 때문에 문제를 해결하지 못합니다.
 
-![Low contrast tablist](_media/low-contrast-tablist-with-background.png)
+![낮은 대비 탭 목록](_media/low-contrast-tablist-with-background.png)
 
-On the other hand, borders with high contrast make the tablist recognisable for all users:
+반면에, 높은 대비를 가진 테두리는 모든 사용자가 탭 목록을 알아볼 수 있게 합니다:
 
-![Low contrast tablist](_media/tablist-with-borders.png)
+![낮은 대비 탭 목록](_media/tablist-with-borders.png)
 
-And while we are at it: providing clear indicators for where an element starts and where it ends is always good style, so please also expand borders around the content area.
+그리고 엘리먼트가 시작되는 위치와 끝나는 위치에 대한 명확한 지표를 제공하는 것은 항상 좋은 스타일이므로, 콘텐츠 영역 주변 테두리도 확장해주세요.
 
-![Low contrast tablist](_media/tablist-with-more-borders.png)
+![낮은 대비 탭 목록](_media/tablist-with-more-borders.png)
 
-## Exceptions
+## 예외
 
-- **Text:** For text in UI components (like labels) the same requirements apply as for text in content *unless* the whole component is disabled. (see [chapter about colour contrast for text](/knowledge/colours-and-contrast/text/))
-- **Disabled components:** this could be a disabled text field or button, but also a custom control.
-    - Be careful with this one: often, the mere existence of an element conveys something to a user. For example, a form's submit button can be disabled while the user's input is missing (or invalid). If the label and the shape of the button have insufficient contrast, some people might not be able to perceive the button at all. This can cause them to draw the wrong conclusions about the form, for example assuming that it can't be submitted at all.
-    - Also, make sure to not mix up `disabled` with `readonly` states.
+- **텍스트:** UI 컴포넌트의 텍스트 (레이블 같은)의 경우 전체 컴포넌트가 비활성화 되지 *않는 한* 콘텐츠의 텍스트와 동일한 요구사항이 적용됩니다. ([텍스트에 대한 색상 대비 관련 챕터](/knowledge/colours-and-contrast/text/) 참고)
+- **비활성화 된 컴포넌트:** 이는 비활성화 된 텍스트필드나 버튼일 수 있지만, 커스텀 컨트롤일 수도 있습니다.
+    - 이것에 주의하세요: 종종, 단지 엘리먼트의 존재 만으로 사용자에게 무언가를 전달합니다. 예를 들어, 사용자의 입력이 누락 된 (혹은 유효하지 않은) 동안 양식의 전송 버튼은 비활성화 될 수 있습니다. 레이블과 버튼의 모양이 충분하지 않은 대비를 가지면, 어떤 사람들은 버튼을 전혀 인식하지 못할 수 있습니다. 이는 양식에 대해 잘못된 결론을, 예를 들어 양식을 전혀 제출 할 수 없다고 가정, 만들 수 있습니다.
+    - 또한, `readonly` 상태와 `disabled` 상태를 혼동하지 않게 하세요.

@@ -1,17 +1,17 @@
 ---
-navigation_title: "Bookmarklets"
+navigation_title: "북마클릿"
 position: 4
 changed: "2018-03-09"
 ---
 
-# Bookmarklets
+# 북마클릿
 
-**Bookmarklets are bookmarks that contain JavaScript instead of a URL. You can execute them while reading a webpage, and they typically do some quick analysis and display their results.**
+**북마클릿은 URL 대신 JavaScript를 포함하는 북마크입니다. 웹 페이지를 읽는 동안 실행할 수 있고, 일반적으로 빠른 분석을 수행하여 결과를 표시합니다.**
 
-## Installation
+## 설치
 
-![A bookmark and its JavaScript content](_media/a-bookmark-and-its-javascript-content.png)
+![북마크와 북마크의 JavaScript 콘텐츠](_media/a-bookmark-and-its-javascript-content.png)
 
-Bookmarklets can be installed by dragging the specified link to your bookmarks toolbar. If you are not able to drag and drop, copy the link location, create a bookmark manually, and paste the copied code as URL.
+북마클릿은 지정된 링크를 북마크 툴바에 드래그하여 설치될 수 있습니다. 드래그 앤 드랍이 불가능한 경우, 링크 위치를 복사하고 북마크릿을 수동으로 생성하여 URL로 복사한 코드를 붙여넣으세요.
 
-We suggest you add all suggested bookmarklets to each and every browser you have (you never know when you need them).
+가지고 있는 모든 브라우저에 모든 추천 북마클릿을 추가하는 것을 권장합니다(언제 그것들이 필요할지 알 수 없습니다).

@@ -1,43 +1,43 @@
 ---
-navigation_title: "How to examine"
+navigation_title: "검사 방법"
 position: 2
 changed: "2019-12-15"
 ---
 
-# How to examine colour contrast
+# 색상 대비 검사 방법
 
-**Calculating contrast ratios is complex. Fortunately there are contrast calculators which take care of the math. We only need to provide the correct colour codes – which has a few potential pitfalls.**
+**명암비를 계산하는 것은 복잡합니다. 다행히 수학을 처리하는 대비 계산기가 있습니다. 몇 가지 잠재적인 위험이 있는 올바른 색상 코드만 제공하면 됩니다.**
 
-## Colour Contrast Analyser
+## 색상 대비 분석기
 
-There are a lot of tools available to calculate the contrast between two colours. For Windows and macOS users we recommend the [Colour Contrast Analyser (CCA)](/setup/helper-tools/colour-contrast-analyser/).
+두 색상 간 대비를 계산하는데 사용할 수 있는 많은 도구가 있습니다. Windows 및 macOS 사용자의 경우 [Colour Contrast Analyser (CCA)](/setup/helper-tools/colour-contrast-analyser/)를 추천합니다.
 
-When calculating a contrast ratio, it is very important to use the "right" colour codes. In the context of web applications these are the values defined in CSS. But what is the best way to get to these values?
+명암비를 계산할 경우, "올바른" 색상 코드를 사용하는 것이 매우 중요합니다. 웹 어플리케이션의 맥락에서 이것들은 CSS에서 정의된 값입니다. 그런데 이 값들을 얻는 가장 좋은 방법이 무엇일까요?
 
-## DOM inspector
+## DOM 검사기
 
-The most trustworthy source is the browser's DOM inspector which gives direct access to the values defined in the source code.
+가장 신뢰할 수 있는 소스는 소크 코드에 정의된 값에 직접 접근을 제공하는 브라우저의 DOM 검사기입니다.
 
-Right-click on an element and choose `Inspect` (the term might vary depending on your browser) to show that element in the DOM inspector. Now you can find the element's colour values in the `Styles` tab.
+DOM 검사기에서 엘리먼트를 보기 위해 엘리먼트에 우클릭하고 `검사`(용어는 브라우저에 따라 다를 수 있습니다)를 선택합니다. 이제 `Styles` 탭에서 엘리먼트의 색상 값을 찾을 수 있습니다.
 
-![Displaying an element's colour definition in the DOM inspector](_media/dom-inspector.png)
+![DOM 검사기에서 엘리먼트의 색상 정의 표기](_media/dom-inspector.png)
 
-## Colour picker
+## 색상 선택기
 
-Sometimes the colour values aren't defined in the source code (for example when working with pixel images) or the values in the DOM inspector don't tell the whole story (for example when working with transparency).
+때로는 소스 코드에 색상 값이 정의 되어 있지 않거나 (예를 들어, 픽셀 이미지로 작업 시) DOM 검사기의 값이 전체 스토리를 전달하지 못합니다 (예를 들어, 투명도 작업 시).
 
-To account for this, a lot of contrast checkers offer colour pickers. While they are very handy, they open up some potential pitfalls.
+이에 대해 처리하기 위해, 많은 대비 검사기가 색상 선택기를 제공합니다. 매우 편리하지만, 잠재적인 위험성을 열어 줍니다.
 
-### Anti-aliasing
+### 안티 앨리어싱
 
-Most modern browsers apply anti-aliasing to make the edges of rendered elements smoother (see [spacial anti-aliasing (Wikipedia.org)](https://en.wikipedia.org/wiki/Spatial_anti-aliasing))
+대부분의 최신 브라우저는 렌더링 된 엘리먼트의 가장자리를 부드럽게 만들기 위해 안티 앨리어싱을 적용합니다. ([spacial anti-aliasing (Wikipedia.org)](https://en.wikipedia.org/wiki/Spatial_anti-aliasing) 참고)
 
-![An anti-aliased text](_media/anti-alias.png)
+![안티 앨리어싱 된 텍스트](_media/anti-alias.png)
 
-When you are picking a colour from such an element, be sure to avoid anti-aliased areas, as this would have a drastic impact on the result.
+그러한 엘리먼트로부터 색상을 선택하는 경우, 이는 결과에 큰 영향을 미치기 때문에 안티 앨리어싱 된 영역을 피해야 합니다.
 
-### Colour profiles
+### 색상 프로필
 
-Colour that is displayed on screen may slightly differ from its definition in the code. This is due to the various colour profiles that are used by monitors, operating systems and browsers. So if you are a using colour picker, it could show you a different value than what has been defined in the code.
+화면에 표시되는 색상은 코드에 정의 된 것과 약간 다를 수 있습니다. 이는 모니터, 운영 체제, 브라우저에서 사용되는 다양한 색상 프로필 때문입니다. 따라서 색상 선택기를 사용하는 경우, 코드에 정의 된 것과 다른 값을 표시 할 수 있습니다.
 
-**A general recommendation:** Use colour pickers and profit from the time they save you. But if a result is very close to the required contrast threshold, we recommend to verify it by examining the real colour definitions (if available) in the DOM inspector.
+**일반적인 권장 사항:** 색상 선택기를 사용하고 시간을 절약하세요. 하지만 결과가 필요한 대비 임계 값에 근접한 경우, DOM 검사기의 실제 색상 정의를 검사하여 (가능한 경우) 확인하는 것을 권장합니다.

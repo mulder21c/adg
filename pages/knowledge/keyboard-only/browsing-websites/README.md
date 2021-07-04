@@ -21,8 +21,8 @@ First, make sure your web browser is open. Then:
 
 After a while of reading, you usually have to adjust the scrolling of the page:
 
-- To scroll the viewport down, up, left, or right, use the respective arrow keys.
-- When tabbing through a page (see below), the viewport is scrolled automatically to the currently focused element, so using the arrow keys often is not necessary.
+- To scroll the viewport down, up, left, or right, use the respective 방향 키s.
+- When tabbing through a page (see below), the viewport is scrolled automatically to the currently focused element, so using the 방향 키s often is not necessary.
 
 ## Interacting with a website
 
@@ -43,7 +43,7 @@ To interact with an element, keyboard users need to move the so called "focus" s
 - Use `Space` to:
     - Toggle an element's state (for example checkbox).
     - Open or close an element (for example combobox).
-- Use arrow keys to:
+- Use 방향 키s to:
     - Change the value of an item (for example in a combobox, a radio button group, or within a min/max value slider widget).
     - Move the cursor (for example in a text input).
 - Use `Esc` to:

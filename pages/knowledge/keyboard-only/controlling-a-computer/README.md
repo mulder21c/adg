@@ -27,7 +27,7 @@ So by making sure that your websites are controllable with a default keyboard, m
 
 ### Keyboard shortcuts
 
-Keyboard shortcuts trigger certain functionalities, be it system wide or application specific. Keyboard shortcuts usually are combinations of at least one modifier key (`Windows`, `Ctrl`, `Alt`, `Shift`) and any other key.
+Keyboard shortcuts trigger certain functionalities, be it system wide or application specific. Keyboard shortcuts usually are combinations of at least one 보조 키 (`Windows`, `Ctrl`, `Alt`, `Shift`) and any other key.
 
 - System wide keyboard shortcut example: `Ctrl + Alt + Del` opens the Windows Task Manager.
 - Application specific keyboard shortcut example: `Ctrl + S` saves the currently opened document (for example in a text editor).
@@ -66,7 +66,7 @@ The following is a collection of some well known shortcuts (in no specific order
 - Press `Space` to also confirm or interact with stuff (often used interchangeably with `Enter`)
 - Press `Esc` to cancel something (for example closing a dialog without applying changes)
 
-Notice: by pressing `Alt`, the focus is placed in the current application's menu (if available). Using the arrow keys, you can then browse it. The focused item can be activated by pressing `Enter`.
+Notice: by pressing `Alt`, the focus is placed in the current application's menu (if available). Using the 방향 키s, you can then browse it. The focused item can be activated by pressing `Enter`.
 
 #### Application specific shortcuts
 

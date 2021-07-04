@@ -62,7 +62,7 @@ $(".tablist [data-target]").click(function() {
 </div>
 ```
 
-But simply presenting something visually is not enough for screen readers (if you are really curious and want to learn more about this, skip ahead and read [Screen readers do not convey visual attributes](/knowledge/screen-readers/no-visual-attributes)). For example, although the currently active tabitem can be distinguished visually using `class="active"` and some CSS styling, screen readers will not know which tabitem in fact is the active one. Proper semantical information is missing.
+But simply presenting something visually is not enough for screen readers (정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Screen readers do not convey visual attributes](/knowledge/screen-readers/no-visual-attributes)). For example, although the currently active tabitem can be distinguished visually using `class="active"` and some CSS styling, screen readers will not know which tabitem in fact is the active one. Proper semantical information is missing.
 
 ## ARIA to the rescue (?)
 
@@ -97,7 +97,7 @@ Marked up with ARIA, our tablist example would look something like this:
 
 First, `role="tablist"` was added to the list container (containing the tabs). The `<ul>` element won't be announced as list now anymore by screen readers, but as something like "tablist" (depending on the screen reader).
 
-Then, `role="presentation"` was added to the list elements of the former list. As the list is not a list anymore, the specific `<li>` elements must not have specific list semantics anymore. The `presentation` role removes any semantical information: the `<li>` elements are now treated similar to plain `<div>` elements (if you are really curious and want to learn more about this, skip ahead and read [Removing semantics using presentation role](/examples/sensible-aria-usage/presentation/)). It may seem silly to use a semantic container and then remove its semantics. But this is generally a good practice for providing backwards compatibility with legacy screen readers that may not support ARIA.
+Then, `role="presentation"` was added to the list elements of the former list. As the list is not a list anymore, the specific `<li>` elements must not have specific list semantics anymore. The `presentation` role removes any semantical information: the `<li>` elements are now treated similar to plain `<div>` elements (정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Removing semantics using presentation role](/examples/sensible-aria-usage/presentation/)). It may seem silly to use a semantic container and then remove its semantics. But this is generally a good practice for providing backwards compatibility with legacy screen readers that may not support ARIA.
 
 Finally, `role="tab"` was added to each tab element. The `<button>` element won't be announced as button now anymore by screen readers, but as something like "tab" (depending on the screen reader). In addition, some special `aria-*` attributes were added:
 
@@ -124,7 +124,7 @@ Admitted, a tablist is a rather easy user interface pattern, so it is not too ha
 
 To make things even trickier, ARIA support among browsers and screen readers varies a lot. While some may support a tablist (or autocomplete) pattern, others may not.
 
-Even those claiming to support a pattern are prone to being buggy. This is particularly true regarding ARIA roles: as soon as the `role` attribute is used, unexpected things may happen (if you are really curious and want to learn more about this, skip ahead and read [How screen readers work - and why they seem so buggy](/knowledge/screen-readers/so-buggy)).
+Even those claiming to support a pattern are prone to being buggy. This is particularly true regarding ARIA roles: as soon as the `role` attribute is used, unexpected things may happen (정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [How screen readers work - and why they seem so buggy](/knowledge/screen-readers/so-buggy)).
 
 As such, there are only few examples of ARIA widgets available on the web that truly work in all major browsers and screen readers. And those existing ones often need a lot of complex code to work around known problems.
 
@@ -134,9 +134,9 @@ Besides bugs and unsupported features, the ARIA specification also often is not 
 
 So screen reader behaviour varies when interacting with ARIA elements, especially regarding differences between browse and focus modes (if you haven't done this yet, go back and read [Screen readers' browse and focus modes](/knowledge/screen-readers/desktop/browse-focus-modes)).
 
-For example, while all major screen readers announce content associated using `aria-describedby` in focus mode, some ignore it in browse mode. And while some screen readers announce the associated content right away, others ask the user whether they want to hear it (by pressing a keyboard shortcut). If you are really curious and want to learn more about this, skip forward and read [Adding descriptions to elements using aria-describedby](/examples/sensible-aria-usage/describedby).
+For example, while all major screen readers announce content associated using `aria-describedby` in focus mode, some ignore it in browse mode. And while some screen readers announce the associated content right away, others ask the user whether they want to hear it (by pressing a keyboard shortcut). 정말 궁금하고 이에 대해 더 배우고 싶다면, skip forward and read [Adding descriptions to elements using aria-describedby](/examples/sensible-aria-usage/describedby).
 
-Another example is `aria-hidden`. Its specification promises to hide elements from screen readers. The first surprise is that `aria-hidden` simply does not work on focusable elements in most browsers. The next surprise is that `aria-hidden` does not have any effect on elements that are referenced using `aria-describedby`. If you are really curious and want to learn more about this, skip forward and read [Hiding elements from screen readers using aria-hidden](/examples/sensible-aria-usage/hidden).
+Another example is `aria-hidden`. Its specification promises to hide elements from screen readers. The first surprise is that `aria-hidden` simply does not work on focusable elements in most browsers. The next surprise is that `aria-hidden` does not have any effect on elements that are referenced using `aria-describedby`. 정말 궁금하고 이에 대해 더 배우고 싶다면, skip forward and read [Hiding elements from screen readers using aria-hidden](/examples/sensible-aria-usage/hidden).
 
 All this is not because of varying support degrees among modern screen readers or browsers (all of them claim to fully support `aria-describedby` and `aria-hidden`), but because of non-homogenous behaviour caused by the manufacturers' different opinions. So which screen reader is doing it "right"? The ARIA specification does not provide an answer.
 

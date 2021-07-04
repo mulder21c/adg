@@ -1,13 +1,13 @@
 ---
-navigation_title: "Colours & contrast"
+navigation_title: "색상 & 대비"
 position: 1
 changed: "2019-12-15"
 ---
 
-# Colours and contrast
+# 색상과 대비
 
-**Visual elements like for example text, icons, input fields and charts need to be easily perceivable. On the most basic level that means that they have to clearly stand out from their background. But it's also important that they can be easily distinguished from similar elements around them – for example links embedded in a text paragraph.** 
+**예를 들어 텍스트, 아이콘, 입력 필드 및 차트와 같은 시각적 요소는 쉽게 인식 할 수 있어야 합니다. 기장 기본적인 수준에서, 배경에서 뚜렷하게 눈에 띄어야 함을 의미합니다. 또한 예를 들어 텍스트 문단에 포함 된 링크와 같이 주변의 유사항 요소들로부터 쉽게 구별될 수 있어야 하는 것도 중요합니다.** 
 
-The need to see things clearly is a shared one among people who rely on their eyes. But the challenges are quite diverse. People with a visual impairment might not be able to see (certain) colours, their field of view might be blurred or very narrow. But it's also possible that the challenge is caused by a beamer projection in a light room or direct sunlight shining on the screen.
+사물을 뚜렷하게 볼 필요는 눈에 의존하는 사람들 사이에 공유되는 것입니다. 하지만 문제는 꽤 다양합니다. 시각 장애를 가진 사람들은 (특정) 색상을 볼 수 없을 수 있고, 시야가 흐릿하거나 매우 좁을 수도 있습니다. 그러나 문제는 밝은 방에서 빔 프로젝트나 스크린에 비추는 직사광선에 의해 야기될 수도 있습니다.
 
-The visual contrast between different colours is a key factor in making things perceivable. But colour contrast has its limitations. Creating robust visual differences between elements often requires a more holistic approach. 
+서로 다른 색상 사이의 시각적 대비는 사물을 인식하게 하는 핵심 요소입니다. 그러나 색상 대비에는 한계가 있습니다. 요소 간의 시각적 차이를 확실하게 만드려면 종종 보다 전체적인 접근 방식이 필요합니다.

@@ -1,21 +1,21 @@
 ---
-navigation_title: "Chrome"
+navigation_title: "크롬"
 position: 3
 changed: "2018-03-12"
 ---
 
-# Chrome installation and configuration
+# 크롬 설치 및 구성
 
-**Being the favourite browser of many web developers anyway, Chrome also has some nice features and extensions that are useful in the daily accessibility workflow.**
+**어쨌든 많은 웹 개발자가 즐겨 찾는 브라우저인 크롬은 일상적인 접근성 작업 흐름에 유용한 몇 가지 좋은 기능과 확장도 갖추고 있습니다.**
 
-![Chrome logo](_media/chrome-logo.png)
+![크롬 로고](_media/chrome-logo.png)
 
-## Installation
+## 설치
 
-[Download Chrome](https://www.google.com/chrome/browser/desktop/) and install it.
+[크롬을 다운로드](https://www.google.com/chrome/browser/desktop/)하고 설치하세요.
 
-## Configuration
+## 구성
 
-### Restoring tabs after restart
+### 재시작 후 탭 복원
 
-You may open and close browsers repeatedly during accessibility testing. To see how to configure Chrome to restore tabs upon restart, see [Restore Previous Session & Tabs in Google Chrome (Google.com)](https://productforums.google.com/forum/#!topic/chrome/7JoWEVz3CK8).
+접근성 테스트 중에 브라우저를 반복적으로 열고 닫을 수 있습니다. 다시 시작 할 때 탭을 복원하도록 크롬을 구성하는 방법을 보려면, [구글 크롬에서 이전 세션과 탭 복원 (Google.com)](https://productforums.google.com/forum/#!topic/chrome/7JoWEVz3CK8)을 참고하세요.

@@ -4,166 +4,170 @@ position: 3
 changed: "2020-04-30"
 ---
 
-# NVDA installation and configuration
+# NVDA 설치 및 구성
 
-**NVDA (Non Visual Desktop Access) is a lightweight and reliable open source desktop screen reader. Because of its firm compliance to standards, it is the desktop screen reader of choice when developing accessible websites. After using it for a while, you will respect it as a firm but fair teacher.**
+**NVDA (Non Visual Desktop Access)는 가볍고 안정적인 오픈 소스 데스크탑 스크린리더입니다. 표준에 대한 확고한 준수 때문에, 접근성 개발 할 때 선택하는 데스크탑 스크린리더 입니다. 잠시 사용하고 나면, 확고 하면서도 타당한 선생님으로 존경하게 될 것입니다.**
 
-## Installation
+## 설치
 
-[Download NVDA](http://www.nvaccess.org/download/).
+[NVDA 다운로드](http://www.nvaccess.org/download/).
 
-### Normal installation
+### 일반 설치
 
-Normal installation offers automatic startup on boot (optional), a keyboard shortcut to start/restart it, association with proprietary files, etc.
+일반 설치는 부팅 시 자동 시작(선택 사항), 시작/재시작 키보드 단축키, 전용 파일과의 연결 등을 제공합니다.
 
-We recommend the normal over portable installation (see below).
+휴대용 설치(아래 참고)보다는 일반 설치를 권장합니다.
 
-Simply run the installer, or see [Installing NVDA (NVAccess.org)](http://www.nvaccess.org/files/nvda/documentation/userGuide.html?#toc11) for detailed information.
+설치 프로그램을 실행하거나, 더 자세한 내용은 [NVDA 설치 (NVAccess.org)](http://www.nvaccess.org/files/nvda/documentation/userGuide.html?#toc11)를 참고하세요.
 
-### Portable installation
+### 휴대용 설치
 
-NVDA offers the option to be run as a portable app, so no installation is required (and thus no admin rights). While for our purposes it works fine, it has some restrictions, see [Portable and Temporary Copy Restrictions (NVAccess.org)](http://www.nvaccess.org/files/nvda/documentation/userGuide.html?#toc10).
+NVDA는 휴대용 앱으로 실행할 수 있는 옵션을 제공하므로, 설치가 필요하지 않습니다 (또한 따라서 관리자 권한도 필요하지 않습니다). 우리 목적으로는 잘 동작하지만, 몇 가지 제한 사항이 있습니다. [휴대용 및 임시용 제한 (NVAccess.org)](http://www.nvaccess.org/files/nvda/documentation/userGuide.html?#toc10)를 참고하세요.
 
-For detailed information, see [Creating a Portable Copy (NVAccess.org)](http://www.nvaccess.org/files/nvda/documentation/userGuide.html?#toc15) (be sure to manually create a new folder as installation location, for example `NVDA` on your Desktop).
+좀 더 자세한 내용은, [휴대용 만들기 (NVAccess.org)](http://www.nvaccess.org/files/nvda/documentation/userGuide.html?#toc15)를 참고하세요 (설치 위치로 새 폴더, 예를 들어 `NVDA`를 수동으로 만들어야 합니다).
 
-## Running NVDA
+## NVDA 실행
 
-### Starting
+### 시작
 
-If you chose normal installation, you can start (and restart) NVDA any time by pressing the `Ctrl + Alt + N`, or using its icon on the desktop.
+일반 설치를 선택한 경우, `Ctrl + Alt + N`을 누르거나 데스크탑의 아이콘을 사용하여 언제든지 NVDA를 시작(과 재시작) 할 수 있습니다.
 
-![NVDA icon](_media/nvda-icon.png)
+![NVDA 아이콘](_media/nvda-icon.png)
 
-If you chose portable installation, simply start NVDA using the `NVDA.exe` in its installation folder.
+휴대용 설치를 선택한 경우, 설치 폴더의 `NVDA.exe`를 사용하여 NVDA를 실작하면 됩니다.
 
-### Using the menu
+### 메뉴 사용
 
-After starting NVDA and clicking away its start screen, you won't see much of it except a small icon in the system tray.
+NVDA를 시작 하고 시작 화면을 클릭한 후, 시스템 트레이의 있는 작은 아이콘 외에는 별로 표시되지 않습니다.
 
-![NVDA in the system tray](_media/nvda-in-the-system-tray.png).
+![시스템 트레이의 NVDA](_media/nvda-in-the-system-tray.png).
 
-By clicking on the icon, the NVDA menu is displayed.
+아이콘을 클릭하면, NVDA 메뉴가 표시됩니다.
 
-![The NVDA menu](_media/the-nvda-menu.png)
+![NVDA 메뉴](_media/the-nvda-menu.png)
 
-Alternatively, you can press `NVDA + N` to display it. By default, the `NVDA` key is the `Insert` key (if you are really curious and want to learn more about this, skip ahead and read [The Insert Modifier Key](/knowledge/screen-readers/desktop/insert-modifier-key).
+또는, `NVDA + N`을 눌러 표시할 수 있습니다. 기본적으로, `NVDA`키는 `Insert`키 입니다(정말 궁금하고 이에 대해 더 배우고 싶다면, [Insert 보조 키](/knowledge/screen-readers/desktop/insert-modifier-key)로 건너뛰어 읽어보세요).
 
-The best way to use the NVDA menu is by keyboard:
+키보드로 NVDA 메뉴를 사용하는 가장 좋은 방법은::
 
-- Use the arrow keys to navigate it and press `Enter` to select an item.
-- For even quicker navigation, press the letter on you keyboard that is underlined in the intended menu item.
-    - For example, press `E` for `Exit`.
-    - In this guide, we indicate those letters by putting parentheses around them, for instance like so: `(E)xit` or `(H)elp`.
-- You can close the menu items by pressing `Esc`.
+- 탐색에 방향 키를 사용하고 항목을 선택하는데 `Enter`를 누르세요.
+- 더 빠른 탐색을 위해, 원하는 메뉴 항목에 밑줄이 그어진 키보드의 문자를 누르세요.
+    - 예를 들어, `Exit`를 위해 `E`를 누르세요.
+    - 본 지침에서는, 이러한 문자를 괄호로 묶어서, 예를 들어 `(E)xit`나 `(H)elp`와 같이 표시합니다.
+- `Esc`를 눌러 메뉴 항목을 닫을 수 있습니다.
 
-### Silencing NVDA on demand
+### 필요 시 NVDA 음소거
 
-While NVDA is running, it's announcing whatever your screen is currently showing.
+NVDA를 실행하는 동안, 화면에 현재 보여지는 내용이 낭독됩니다.
 
-- To make NVDA abort the current output, press `Ctrl` (or `Shift` to skip the current line).
-- To make NVDA shut up completely, you can toggle speech mode by pressing `NVDA + S`.
-    - Be aware though that NVDA is still running in the background, so your computer may behave differently in some situations!
+- NVDA가 현재 출력을 중단하게 하려면, `Ctrl`을 (또는 현재 행을 건너 뛰려면 `Shift`를) 누르세요.
+- NVDA가 완전히 입다물게 하려면, `NVDA + S`를 눌러 음성 출력 모드를 전환할 수 있습니다.
+    - NVDA가 여전히 백그라운드에서 실행되고 있으므로, 일부 상황에서는 컴퓨터가 다르게 동작할 수 있습니다!
 
-### Speech viewer
+### 음성 출력 뷰어
 
-The speech viewer displays NVDA's audio output in text form, which is an invaluable help for sighted users.
+음성 출력 뷰어는 NVDA의 오디오 출력을 테스트 형식으로 표시하여, 정상 시력 사용자에게 매우 유용합니다.
 
-![NVDA speech viewer](_media/nvda-speech-viewer.png)
+![NVDA 음성 출력 뷰어](_media/nvda-speech-viewer.png)
 
-The speech viewer can be opened through the NVDA menu by choosing `(T)ools` → `(S)peech viewer`.
+음성 출력 뷰어는 NVDA 메뉴에서 `도구(T)` → `음성 출력 뷰어(S)`를 선택하여 열 수 있습니다.
 
-There are some useful options:
+몇 가지 유용한 옵션이 있습니다:
 
-- You can make the speech viewer open automatically on startup.
-    - Do so by activating the `(S)how Speech Viewer on Startup` checkbox, located at the speech viewer's bottom left.
-- You can zoom the font size using `Ctrl` + mouse wheel.
-    - At the time being, font size is always set back to default on quit.
+- 시작 시 음성 출력 뷰어를 자동으로 열 수 있습니다.
+    - 음성 출력 뷰어 좌측 하단에 있는, `NVDA 시작 시 음성 출력 뷰어 실행(S)`을 활성화 하면 됩니다.
+    - 글꼴 크기는 종료 시 항상 기본 값으로 다시 설정됩니다.
 
-We highly recommend to have the speech viewer always open while using NVDA. Place it on the top right of your screen and resize your browser window accordingly so they do not overlap each other. To allow system tray popups some headroom, do not give the speech viewer full height.
+NVDA를 사용하는 동안 음성 출력 뷰어를 항상 열어 두는 것을 매우 권장합니다. 화면 우측 상단에 배치하고 브라우저 창 크기를 조절하여 서로 겹치지 않게 하세요. 시스템 트레이 팝업이 약간의 공간을 가지도록, 음성 출력 뷰어에 전체 높이를 지정하지 마세요.
 
-![Perfect layout of browser and speech viewer](_media/perfect-layout-of-browser-and-speech-viewer.png)
+![브라우저와 음성 출력 뷰어의 완벽한 레이아웃](_media/perfect-layout-of-browser-and-speech-viewer.png)
 
-## Configuration
+## 구성
 
-Screen readers in general offer tons of configuration options which can drastically influence their behaviour. We advise to stick to the defaults. The following configuration suggestions are known to be useful and safe though.
+일반적으로 스크린 리더는 동작에 큰 영향을 미칠 수 있는 다양한 구성 옵션을 제공합니다. 기본 값을 그대로 두는 것을 권장합니다. 다음 구성 제안은 유용하고 안전한 것으로 알려져 있습니다.
 
-### Disabling mouse focus
+### 마우스 초점 비활성 화
 
-By default, when moving the mouse cursor, NVDA announces the objects below it. This is useful for blind users who are scanning the screen by luck, looking out for something. But for visually non-impaired developers, this can be really annoying.
+기본적으로, 마우스 커서가 움직이면, NVDA는 그 아래에 있는 개체를 낭독합니다. 이는 운 좋게 화면을 스캔하다가 무언가를 찾는 시각 장애인에게는 유용합니다. 하지만 시각 장애가 없는 개발자에게는 완전 짜증 날 수 있습니다.
 
-We can disable mouse focus as follows:
+다음과 같이 마우스 초점을 비활성화 할 수 있습니다:
 
-- In the NVDA menu, choose `(P)references` -> `(M)ouse settings`.
-- Disable `Enable mouse tracking` and confirm.
+- NVDA 메뉴에서, choose `설정 (P)` -> `NVDA 설정(S)` -> `마우스`.
+- `마우스 위치 추적 사용(T)`을 비활성화 하고 확인을 누릅니다.
 
-### Disabling "Say All" on page load
+### 페이지 로드 시 "모두 말하기" 비활성화
 
-By default, after loading a website, NVDA automatically starts reading aloud all content. This is not what developers usually want, so we disable that:
+기본적으로 웹 사이트가 로딩 되면, NVDA는 자동으로 모든 콘텐츠를 읽어주기 시작합니다. 이것은 개발자가 일반적으로 원하는 것이 아니므로 비활성화 합니다:
 
-- In the NVDA menu, choose `(P)references` → `(B)rowse mode`.
-- Disable `Automatic say all on page load` and confirm.
+- NVDA 메뉴에서, choose `설정 (P)` → `NVDA 설정(S)` -> `브라우즈 모드`을 선택하세요.
+- `페이지 로딩 시 자동으로 읽기 (S)`를 비활성화하고 확인을 누르세요.
 
-Now NVDA stops after reading the current element, waiting for the user to proceed manually to the next element.
+이제 NVDA는 현재 요소를 읽은 후, 사용자가 수동으로 다은 요소로 진행할 때까지 기다립니다.
 
-### A bearable voice synthesizer (optional)
+### 들을 만한 음성 엔진 (선택 사항)
 
-The standard NVDA voice synthesizer is a bit robotic. While it is a fast and very accurate one, it may sound odd to some. So let's install a nicer, more natural one.
+표준 NVDA 음성 엔진은 다소 기계적입니다. 빠르고 매우 정밀하지만, 일부에게는 이상하게 들릴 수 있습니다. 따라서, 더 멋지고 더 자연스러운 것을 설치합시다.
 
-- [Download Svox Pico add-on](http://files.nvaccess.org/nvda-addons/svox-pico-2.0.nvda-addon) and install it.
-- In the NVDA menu, choose `(P)references` → `(S)ynthesizer`.
-- As synthesizer, choose `Svox pico synthesizer`, and confirm.
-- In the NVDA menu, choose `(P)references` → `(V)oice settings`, choose your desired voice, and confirm.
+- [Svox Pico add-on을 다운로드](http://files.nvaccess.org/nvda-addons/svox-pico-2.0.nvda-addon)하고 설치하세요.
+- NVDA메뉴에서 , `설정 (P)` → `NVDA 설정(S)` -> `음성 출력`을 선택하세요
+- 음성 엔진으로, `Svox pico synthesizer`를 선택하세요.
+- 보이스 (V)에서, 원하는 음성을 선택한 후 확인을 누르세요.
 
-### GUI language (optional)
+### GUI 언어 (선택 사항)
 
-You can choose the language of NVDA itself (the GUI, not the voice):
+NVDA 자체 언어를 선택할 수 있습니다 (음성 말고 GUI):
 
-- In the NVDA menu, choose `(P)references` → `(G)eneral settings`.
-- Choose your desired language and confirm.
-    - We suggest you are using `English, en` to be able to easily follow this guide.
+- NVDA 메뉴에서, `설정 (P)` → `NVDA 설정(S)` -> `일반 설정`을 선택하세요
+- 원하는 언어를 선택하고 확인을 누르세요.
+    - ~~본 지침을 따라가기 쉽도록 `영어, en`을 사용하는 것을 권장합니다.~~
 
-### Keyboard layout (optional)
+### 키보드 레이아웃 (선택 사항)
 
-NVDA offers a `Desktop` and a `Laptop` keyboard layout. For this guide, `Laptop` is used:
+NVDA는 `desktop`과 `laptop` 키보드 레이아웃을 제공합니다. 본 지침에서는, `laptop`이 사용됩니다:
 
-- In the NVDA menu, choose `(P)references` → `(K)eyboard settings`.
-- Choose `laptop` as keyboard layout and confirm.
+- NVDA 메뉴에서, `설정 (P)` → `NVDA 설정(S)` -> `키보드`를 선택하세요
+- 키보드 레이아웃으로 `laptop`을 선택하고 확인을 누르세요.
 
-### Disabling exit confirmation (optional)
+### 종료 확인 비활성화 (선택 사항)
 
-By default, NVDA displays a confirmation window on exit.
+기본적으로, NVDA는 종료 시 확인 창을 표시합니다.
 
-![NVDA's exit confirmation dialog](_media/nvdas-exit-confirmation-dialog.png)
+![NVDA의 종료 확인 대화상자](_media/nvdas-exit-confirmation-dialog.png)
 
-You can disable that:
+다음과 같이 비활성화 할 수 있습니다:
 
-- In the NVDA menu, choose `(P)references` → `(G)eneral settings`.
-- Disable `Sho(w) exit options when exiting NVDA` and confirm.
+- NVDA 메뉴에서, `설정 (P)` → `NVDA 설정(S)` -> `일반 설정`을 선택하세요
+- `종료 시 NVDA 종료 옵션 표시(w)`를 비활성화하고 확인을 누릅니다.
 
-## Add-ons
+## 애드 온
 
-There are lots of add-ons for NVDA in the [NVDA Community Add-ons website (NVDA-Project.org)](https://addons.nvda-project.org/index.en.html).
+[NVDA 커뮤니티 애드온 웹 사이트 (NVDA-Project.org)](https://addons.nvda-project.org/index.en.html)에 많은 NVDA용 애드온이 있습니다.
 
 ### FocusHighlight
 
-This add-on visually indicates where NVDA's internal cursor currently is on the screen — an invaluable help for sighted users.
+이 애드온은 NVDA의 내부 커서가 현재 화면의 어디에 있는지 시각적으로 보여줍니다 - 정상 시력자에게 매우 유용한 도움입니다.
 
-![The FocusHighlight add-on in action](_media/the-focushighlight-add-on-in-action.png)
+![FocusHighlight 애드온 동작](_media/the-focushighlight-add-on-in-action.png)
 
-There are several indications:
+몇 가지 표시가 있습니다:
 
-- A green border is painted around the element where the browse cursor currently is.
-- A red border is painted around the element where the focus cursor currently is.
-    - The red border turns into blue when the element is being interacted with.
+- 현재 가상 커서가 위치한 엘리먼트 주위에 녹색 테두리가 그려집니다.
+- 현재 포커스 커서가 위치한 엘리먼트 주위에 빨간 테두리가 그려집니다.
+    - 엘리먼트가 상호작용 중인 경우 파란색으로 바뀝니다.
 
-If you are really curious and want to learn more about these different cursor types, skip ahead and read [Screen readers' browse and focus modes](/knowledge/screen-readers/desktop/browse-focus-modes).
+각각 다른 커서 유형에 대해 정말 궁금하고 이에 대해 더 배우고 싶다면, [스크린리더의 브라우즈 모드와 포커스 모드](/knowledge/screen-readers/desktop/browse-focus-modes)로 건너뛰어 읽어보세요.
 
-[Download FocusHighlight add-on](http://addons.nvda-project.org/addons/focusHighlight.en.html) (stable version) and install it!
+[FocusHighlight 애드온을 다운로드](http://addons.nvda-project.org/addons/focusHighlight.en.html) (안정 버전)하고 설치하세요!
 
-### Optional add-ons
+::: translator-comment
+해당 플러그인은 표시가 다소 정확하지 않습니다. (특히 포커스 커서의 빨간색 테두리)  
+오히려 방해가 될 수도 있으니 참고하시기 바랍니다.
+:::
 
-Here are some more of our personal favourites:
+### 선택적 추가 기능
 
-- [Tip of the day](http://addons.nvda-project.org/addons/tipOfTheDay.en.html) shows usage tips on startup.
-- [No beeps speech mode](http://addons.nvda-project.org/addons/noBeepsSpeechMode.en.html) excludes "Beeps" in speech mode when toggling speech modes (`NVDA + S`).
-- [Control usage assistant](http://addons.nvda-project.org/addons/controlUsageAssistant.en.html) offers help for the currently focused item when pressing `NVDA + H`.
+우리가 개인적으로 좋아하는 것들입니다:
+
+- [오늘의 팁](http://addons.nvda-project.org/addons/tipOfTheDay.en.html)은 시작 시 사용 팁을 보여줍니다.
+- [비프음 없음 음성 모드](http://addons.nvda-project.org/addons/noBeepsSpeechMode.en.html)는 음성 모드를 전환할 때 (`NVDA + S) "비프음"을 제외합니다.
+- [제어 사용 도우미](http://addons.nvda-project.org/addons/controlUsageAssistant.en.html)는 `NVDA + H`를 누르면 현재 초점을 얻은 항목에 대한 도움말을 제공합니다.

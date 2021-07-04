@@ -35,7 +35,7 @@ Sensible naming of elements (and a few specifically added visually hidden texts)
 Some interesting peculiarities:
 
 - The filter input has:
-    - A descriptive text attached to it using `aria-describedby` (see [Adding descriptions to elements using aria-describedby](/examples/sensible-aria-usage/describedby)), giving a clue that the element provides a datepicker upon click and arrow key usage.
+    - A descriptive text attached to it using `aria-describedby` (see [Adding descriptions to elements using aria-describedby](/examples/sensible-aria-usage/describedby)), giving a clue that the element provides a datepicker upon click and 방향 키 usage.
     - An `aria-expanded` attribute (see [Marking elements expandable using aria-expanded](/examples/sensible-aria-usage/expanded)), giving a clue that there is something to be expanded (the datepicker).
     - An `autocomplete="off"` attribute so it does not trigger the browser's autocomplete feature (which remembers previous user input and offers it again).
 - The datepicker appears upon clicking into the input, pressing `Up`/`Down` or `Arrow` keys.

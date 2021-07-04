@@ -1,49 +1,49 @@
 ---
-navigation_title: "Colour contrast for graphical objects"
+navigation_title: "그래픽 객체에 대한 색상 대비"
 position: 5
 changed: "2019-12-15"
 ---
 
-# Colour contrast for graphical objects
+# 그래픽 객체에 대한 색상 대비
 
-**The term "graphical object" typically applies to stand-alone icons and to information graphics. The visual complexity of such objects often requires some differentiation with regards to contrast. The focus lies on the parts of the graphical object required to understand the content.**
+**"그래픽 객체"라는 용어는 일반적으로 독립 된 아이콘과 정보 그래픽에 적용됩니다. 그러한 객체의 시각적 복합성은 종종 대비와 관련하여 약간의 차별화가 필요합니다. 내용을 이해하는데 필요한 그래픽 객체의 부분에 중점을 둡니다.**
 
-## Minimal contrast ratio
+## 최소 명암비
 
-Version 2.1 of the Web Content Accessibility Guidelines (WCAG) specify a [minimal contrast ratio of `3:1` against adjacent colour(s)](https://www.w3.org/TR/WCAG21/#non-text-contrast) for the parts, which are required to understand the meaning or content of a graphical object.
+웹 콘텐츠 접근성 지침(WCAG)의 2.1 버전은 그래픽 객체의 의미와 내용을 이해하는데 필요한 부분에 대해 [인접 색상 대한 `3:1`의 최소 명암비](https://www.w3.org/TR/WCAG21/#non-text-contrast)를 지정합니다.
 
-## Example: line chart
+## 예: 선형 차트
 
-The following picture shows a simple line chart with overall insufficient contrast. 
+다음 그림은 전체적으로 불충분한 대비를 가진 간단한 선형 차트를 보여줍니다.
 
-![Line chart with one blue trend line and overall low contrast](_media/line-chart-low-contrast.png)
+![파란 추세선과 전체적으로 낮은 대비를 가진 선형 차트](_media/line-chart-low-contrast.png)
 
-The contrast ratio of the main X and Y axis is `2.8:1`, the one of blue trend line is `2.3:1`. The text labels along the X and Y axis have a contrast ratio of `3.9:1` which can also be considered too low because [text has to meet a higher contrast requirement](/knowledge/colours-and-contrast/text) of at least `4.5:1`. All of these values are somewhat close to their formal requirements but it's important to keep in mind that those requirements only set **minimal** standards. 
+주 X축과 Y축의 명암비는 `2.8:1`이고, 파란색 추세선은 `2.3:1`입니다. X축과 Y축을 따라있는 텍스트 레이블은 `3.9:1`의 명암비를 가지고, 최소 `4.5:1`의 [텍스트가 더 높은 대비 요구사항을 충족해야 함](/knowledge/colours-and-contrast/text) 때문에 이 또한 너무 낮은 것으로 간주 될 수 있습니다. 이러한 모든 값은 공식적인 요구 사항과 다소 유사하지만 그 요구 사항은 **최소**한의 표준만 설정한다는 것을 명심하는 것이 중요합니다.
 
-Let's increase the contrast ratio of the aforementioned elements.
+앞서 언급한 엘리먼트의 명암비를 향상시켜 봅시다.
 
-![The same line chart with increased contrast for the blue trend line and the x and y axis](_media/line-chart-line-axis.png)
+![파란색 추세선과 x축, y축에 대한 대비가 증가된 동일한 선형 차트](_media/line-chart-line-axis.png)
 
-The question now is, what should happen with the grid lines in the background. Their contrast ratio is far too low, yet increasing it might result in a visually overloaded chart.
+이제 문제는, 배경의 격자선에 어떤 일이 발생해야 하는 가입니다. 명암비가 너무 낮지만 이를 증가시키면 시각적으로 과부하가 발생할 수 있습니다.
 
-This brings us back to the notion of what is "required to understand the meaning or content" of this chart. 
+이는 이 차트의 "의미 또는 콘텐트를 이해하는데 필요한" 것이 무엇인가의 개념으로 돌아가게 합니다. 
 
-If the purpose of the chart is to just show a general trend, the grid lines might not be required. In that case, why not just remove them altogether? (If that feels like a loss, this might not be the right solution.)
+차트의 목적이 일반적인 추세만 표시하는 것이라면, 격자는 필요하지 않을 수 있습니다. 그러한 경우, 격자를 모두 제거하지 않는 이유는 무엇일까요? (격자를 제거하는 것이 손실처럼 느껴진다면, 이는 올바른 해결책이 아닐 수 있습니다.)
 
-However, if it is in fact important that people can comfortably read the exact values of each measuring point, it might be a good start to mark those points.
+하지만, 실제로 사람들이 각 측정 지점의 정확한 값을 편한하게 읽을 수 있는 것이 중요하다면, 그 지점을 표시하는 것이 좋습니다.
 
-![The same line chart with added dots along the trend line to mark measuring points](_media/line-chart-line-axis-dots.png)
+![측정 지점을 표시하기 위해 추세선을 따라 점이 추가된 동일한 선형 차트](_media/line-chart-line-axis-dots.png)
 
-Horizontal grid lines might make it easer to gauge the value of the measuring point without overloading the overall appearance.
+가로 격자 선을 사용하면 전체 모양에 과부하가 걸리지 않고 측정 지점의 값을 쉽게 측정할 수 있습니다.
 
-![The same line chart with horizontal grid lines, indicating the steps on the y axis](_media/line-chart-line-axis-dots-guides-y.png)
+![y축에 단계를 나타내는 가로 격자 선이 있는 동일한 선형 차트](_media/line-chart-line-axis-dots-guides-y.png)
 
-Or why not add a label to each measuring point, indicating its value?
+아니면 각 측정 포인트에 값을 나타내는 라벨을 추가하는 것은 어떨까요?
 
-![The same line chart with labelled measuring points, as well as vertical grid lines, indicating the steps on the x axis.](_media/line-chart-line-axis-dots-labels-guides-x.png)
+![x축의 단계를 나타내는 세로 그리드 선과 측정 지점이 레이블 된 동일한 선형 차트](_media/line-chart-line-axis-dots-labels-guides-x.png)
 
-It's no coincidence that many of these considerations and adjustments go far beyond just colour contrast. Designing accessible user interfaces requires a holistic approach. This means:
+이러한 고려사항과 조정 사항 중 많은 부분이 색상 대비를 상당히 넘어사는 것은 우연이 아닙니다. 접근 가능한 유저 인터페이스를 디자인 하는 것은 전체론적인 접근 방식을 요구합니다. 이것은 다음을 의미합니다:
 
-- There is rarely a single variable that can be independently tweaked. Accessibility should be built into the foundations of the design.
-- There is rarely one generic solution that "just works". The specific context and content have to be taken into account.
-- There is no strict separation between "special-purpose accessibility" and "general-purpose usability". In practice they both influence each other.
+- 독립적으로 변경될 수 있는 단일 변수는 거의 없습니다. 접근성은 디자인의 기초에 구축되어야 합니다.
+- "잘 동작하는" 일반적인 해결책은 거의 없습니다. 구체적인 맥락과 내용을 고려해야 합니다.
+- "특수목적 접근성"과 "범용적 사용성" 사이에는 업격한 구분이 없습니다. 실제로 둘 모두 서로 영향을 미칩니다.

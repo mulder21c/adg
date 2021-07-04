@@ -100,4 +100,18 @@
     border-color: var(--theme-main-color);
     padding: 1.5em 2em;
   }
+
+  .translator-comment {
+    padding: 0.5em;
+    background-color: #f0f0f0;
+    font-size: 0.85em;
+
+    &::before {
+      content: "역자 주 : ";
+      float: left;
+      margin-right: 1em;
+      padding: 1em 0.25em 0 0;
+      color: #df03a8;
+    }
+  }
 }

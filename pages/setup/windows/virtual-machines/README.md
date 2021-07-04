@@ -1,28 +1,28 @@
 ---
-navigation_title: "Virtual Machines"
+navigation_title: "가상 머신"
 position: 2
 changed: "2021-03-22"
 ---
 
-# Getting a free Windows virtual machine from Microsoft
+# 마이크로소프트에서 무료 Windows 가상 머신 받기
 
-**Microsoft offers free Windows virtual machine images for testing Microsoft Internet Explorer and Microsoft Edge. While their licenses expire after 90 days of use, by creating a snapshot before activation, they can easily be reset again. This is the easiest way to get your needed Windows environment up and running quickly for testing purposes.**
+**마이크로소프트는 마이크로소프트 인터넷 익스플로러와 마이트로소프트 엣지 테스트를 위해 무료 Windows 가상 머신을 제공합니다. 라이선스는 90일 사용 후 만료되지만, 활성화 전에 스탭샷을 생성하여, 쉽게 다시 재설정 할 수 있습니다. 이는 테스트 목적으로 Windows 환경을 빠르게 설정하고 실행할 수 있는 가장 쉬운 방법입니다.**
 
-## Download
+## 다운로드
 
-The available virtual machines can be [downloaded on Microsoft's website](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/). Get the **"MSEdge on Windows 10"** virtual machine for your desired VM platform. We describe the setup with [VMWare on macOs](/setup/windows/vmware-on-macos/), [Windows and Linux](/setup/windows/vmware-on-windows-linux/), but you can use whatever VM platform you are familiar with.
+사용 가능한 가상 머신은 [마이크로소프트 웹사이트에서 다운로드](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) 할 수 있습니다. 원하는 VM 플랫폼에 대한 **"MSEdge on Windows 10"** 가상 머신을 가져오세요. [MacOs에 VMWare](/setup/windows/vmware-on-macos/), [Windows와 Linux](/setup/windows/vmware-on-windows-linux/)를 사용한 설정을 설명하지만, 익숙한 모든 VM 플랫폼을 사용할 수 있습니다.
 
-The VMs are meant to be used for testing purposes only.
+VM은 테스트 목적으로만 사용됩니다.
 
-## Default user and password
+## 기본 사용자와 패스워드
 
-The VMs provided by Microsoft come with the following login credentials:
+마이크로소프트에서 제공 된 VM은 다음의 로그인 자격 증명과 함께 제공됩니다:
 
-- User: `IEUser`
-- Password: `Passw0rd!`
+- 사용자: `IEUser`
+- 패스워드: `Passw0rd!`
 
-Note: VMs from Microsoft are set up with US-English keyboard layout. Therefore, the exclamation mark is triggered using `Shift + 1`.
+참고: 마이크로소프트의 VM은 US-English 키보드 레이아웃으로 설정됩니다. 따라서, 느낌표는 `Shift + 1`을 사용하여 트리거 됩니다.
 
-If you want to change the password, see [Change your Windows password (Windows Support)](https://support.microsoft.com/en-us/help/14087/windows-7-change-your-windows-password).
+패스워드를 변경하고 싶다면, [Windows 패스워드 (Windows Support)](https://support.microsoft.com/en-us/help/14087/windows-7-change-your-windows-password)를 참고하세요.
 
-Be sure to change the VM's keyboard layout to your preferred one as described here: [How to change your keyboard layout (Windows Support)](https://support.microsoft.com/en-us/help/258824/how-to-change-your-keyboard-layout).
+VM의 키보드 레이아웃을 여기 설명 된 대로 원하는 것으로 변경하세요: [키보드 레이아웃 변경 방법 (Windows Support)](https://support.microsoft.com/en-us/help/258824/how-to-change-your-keyboard-layout).

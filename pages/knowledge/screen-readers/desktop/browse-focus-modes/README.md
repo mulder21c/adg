@@ -12,7 +12,7 @@ changed: "2020-04-07"
 
 Reading through a website by moving the screen reader's cursor through a page's information fragments is called "browse" mode:
 
-- In browse mode, the user typically reads content sequentially line by line using the `Down` arrow key (or `Up` for going back).
+- In browse mode, the user typically reads content sequentially line by line using the `Down` 방향 키 (or `Up` for going back).
 - In addition, screen readers offer more sophisticated ways of moving the cursor, for example:
     - By pressing the `H` key, the cursor is moved to the next heading (`<h1>`, `<h2>`, etc.).
     - By pressing the `K` key, the cursor is moved to the next link (`<a>`).
@@ -41,7 +41,7 @@ This mode - where keystrokes aren't intercepted but sent directly to the control
     - For elements allowing only basic interaction (for example links, buttons, and checkboxes), focus mode is not activated.
         - Basic interaction means that only the `Enter` or `Space` key triggers some interaction.
     - If the element allows complex interaction (for example textareas or comboboxes), focus mode is activated.
-        - Complex interaction means that there are additional ways to interact, for example by pressing an arrow key or by entering a value directly.
+        - Complex interaction means that there are additional ways to interact, for example by pressing an 방향 키 or by entering a value directly.
 
 Notice: in other resources, focus mode may sometimes also be called "forms" or "interaction" mode.
 
@@ -55,7 +55,7 @@ JAWS by default has a special setting called "Auto Forms Mode": it tries to auto
 - Pressing the `Down` key once again will now move the text input's cursor to the end of the input's value (if there is a value). Obviously, you can still enter text.
 - If then the `Down` key is pressed again, this will lead JAWS to leave the text input and switch back to browse mode (indicated by a different "beep" sound).
 
-This seems like a minor detail, but this behaviour indicates clearly that even in focus mode screen readers may intercept some keys. This can be relevant if you bind custom JavaScript behaviour to such keys (if you are really curious and want to learn more about this, skip forward and read [Autosuggest widget (or: autocomplete, lookahead, typeahead)](/examples/widgets/autosuggest)).
+This seems like a minor detail, but this behaviour indicates clearly that even in focus mode screen readers may intercept some keys. This can be relevant if you bind custom JavaScript behaviour to such keys (정말 궁금하고 이에 대해 더 배우고 싶다면, skip forward and read [Autosuggest widget (or: autocomplete, lookahead, typeahead)](/examples/widgets/autosuggest)).
 
 If you want to disable "Auto Forms Mode", read [JAWS installation and configuration](/setup/screen-readers/jaws).
 
@@ -105,4 +105,4 @@ When users reach a page, they typically start reading it from top to bottom usin
 - Either they use the `Tab` key to move the focus to the next interactive element.
     - If entering data into a form, usually the user expects more form elements to come until a submit button is reached at the end of the process.
 - Or they switch back to browse mode by pressing `Esc` and read on using `Down` key.
-    - This usually is only necessary if a form is not structured well (if you are really curious and want to learn more about this, skip ahead and read [Forms](/examples/forms)).
+    - This usually is only necessary if a form is not structured well (정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Forms](/examples/forms)).

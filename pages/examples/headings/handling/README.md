@@ -31,7 +31,7 @@ You can add `Shift` to most shortcuts to reverse direction. For example press `S
 
 As an alternative to navigating through the headings directly on the page, screen readers offer a heading outline view. It resembles the table of contents of a traditional book.
 
-In the upcoming text, we are referring to the keys `NVDA` and `JAWS`. If you do not know about them, see [The Insert Modifier Key](/knowledge/screen-readers/desktop/insert-modifier-key).
+In the upcoming text, we are referring to the keys `NVDA` and `JAWS`. If you do not know about them, see [The Insert 보조 키](/knowledge/screen-readers/desktop/insert-modifier-key).
 
 #### Elements List (NVDA)
 

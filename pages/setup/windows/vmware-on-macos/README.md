@@ -1,87 +1,87 @@
 ---
-navigation_title: "VMware on macOS"
+navigation_title: "MacOS에 VMware"
 position: 3
 changed: "2021-03-22"
 ---
 
-# Configuring VMware Fusion on macOS
+# macOS에 VMware Fusion 설정하기
 
-**On macOS, running Windows as a virtual machine needs some special configuration, especially to integrate it seamlessly into the daily workflow. Once properly set up, accessibility testing on macOS will be as comfortable as it gets.**
+**macOS에서, Windows를 가상 머신으로 수행하려면, 특히 일상적인 워크플로에 매끄럽게 통합하려면 몇 가지 별도의 구성이 필요합니다. 일단 제대로 설정되면, macOS에서 접근성 테스트가 편안해 질 것입니다.**
 
 ![VMware Fusion logo](_media/vmware-fusion-logo.png)
 
-## Preparing the virtual machine
+## 가상 머신 준비하기
 
-Before you proceed, be sure you have downloaded a pre-configured virtual machine (VM) as described here: [Getting a free Windows virtual machine from Microsoft](/setup/windows/virtual-machines).
+계속 하기 전에, 여기 설명된 대로 미리 설정 된 가상 머신(VM)을 다운로드 받으세요: [Microsoft에서 무료로 Windows 가상 머신 받기](/setup/windows/virtual-machine).
 
-Then extract the VM (using [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html), as the built-in unzip version is not capable of zip64 files) to a proper location, for example `~/Virtual Machines`.
+이후 (내장 된 unzip 버전은 zip64 파일에 사용할 수 없으므로 [The Unarchiver](http://wakaba.c3.cx/s/apps/unarchiver.html)를 사용하여) 적절한 위치 예를 들어 `~/Virtual Machines`에 압축을 풉니다.
 
-## Installing VMware Fusion
+## VMware Fusion 설치
 
-After downloading [VMware Fusion](http://www.vmware.com/ch/products/fusion), installing and launching it:
+[VMware Fusion](http://www.vmware.com/ch/products/fusion)를 다운로드 후, 설치하고 실행합니다:
 
-- Choose `File` -> `Import`, select the `*.ovf` file in the extracted folder and confirm.
-- Take a snapshot (`Command + Shift + S`).
-    - This allows to easily go back to that state later, meaning you can re-activate the VM's Windows 90-day license again and again.
-    - For more info, see [Understanding snapshots (VMware)](https://kb.vmware.com/s/article/1014509).
-- Under `Virtual Machine` -> `Settings`:
-    - If you have a retina display, go to `Display` and deselect `Use full resolution for Retina display` (otherwise your eyes will begin to hurt).
-    - Go to `Processors & Memory`, then select at least 2000MB of memory.
-    - To be able to connect to the internet, click `Add Device...` and choose `Network Adapter`.
-        - Use option `Share with my Mac`.
+- `File` -> `Import`를 선택, 압축 해제 된 폴더에서 `*.ovf`를 선택하고 확인.
+- 스냅샷 생성 (`Command + Shift + S`).
+    - 이렇게 하면 나중에 해당 상태로 쉽게 돌아갈 수 있습니다, 즉 VM의 Windows 90일 라이센스를 반복해서 다시 활성화 할 수 있음을 의미합니다.
+    - 더 자세한 내용은 [스냅샷 이해하기 (VMware)](https://kb.vmware.com/s/article/1014509)를 참고하세요.
+- `Virtual Machine` -> `Settings`에서:
+    - 레티나 디스플레이라면, `Display`로 가서 `레티나 디스플레이에 전체 해상도 사용`을 선택 해제합니다 (그렇지 않으면 눈이 아플 겁니다).
+    - `Processors & Memory`로 가서, 최소 2000MB 메모리를 선택하세요.
+    - 인터넷에 연결하려면, `Add Device...` 를 클릭하고 `Network Adapter`를 선택하세요.
+        - `Share with my Mac` 옵션을 사용하세요.
 
-## Booting up the VM for the first time
+## 처음으로 VM 부팅하기
 
-Start the VM. User and password can be found here: [Getting a free Windows virtual machine from Microsoft](/setup/windows/virtual-machines).
+VM을 시작하세요. 사용자와 암호는 여기에서 확인 할 수 있습니다: [Microsoft에서 무료로 Windows 가상 머신 받기](/setup/windows/virtual-machines).
 
-## Improving seamless integration
+## 매끄러운 통합 개선하기
 
-Simply having a Windows machine run on your beloved Mac may already feel creepy. To make you feel as comfortable as possible when working with it, we suggest the following additional configuration steps.
+당신의 사랑하는 Mac에서 Windows 머신이 돌아가는 것만으로도 이미 소름끼치게 느껴질 수 있습니다. 작업 할 때 가능한 편안함을 느낄 수 있도록 다음의 추가적인 설정 단계를 제안합니다.
 
-### Disabling left Windows key
+### 왼쪽 Windows 키 비활성화
 
-In VMware Fusion, the left `Command` key by default is assigned to the left `Windows` key. Pressing `Command + Tab` therefore often interferes with the left `Windows` key, opening and closing the "Start" menu of the VM seemingly randomly.
+VMware Fusion에서, 기본적으로 왼쪽 `Command`키가 왼쪽 `Windows`키로 할당됩니다. 따라서 `Command + Tab`를 누르는 것은 종종 외관상 임의로 VM의 "시작" 메뉴를 열고 닫는 왼쪽 `Windows` 키로 작용합니다.
 
-![Opened Windows 7 start menu](_media/opened-windows-7-start-menu.png)
+![열려진 Windows 7 시작 메뉴](_media/opened-windows-7-start-menu.png)
 
-If you want to prevent this:
+이를 방지하고 싶다면:
 
 - `VMware Fusion` -> `Preferences` -> `Keyboard & Mouse` -> `Mac Host Shortcuts`.
-- Then under `For Windows key, use` select `Right Command key`.
+- 이후 `For Windows key, use`에서 `Right Command key`를 선택하세요.
 
-Remember that you can still use the right `Command` key to open and close the "Start" menu.
+여전히 오른쪽 `Command`키를 "시작" 메뉴를 열고 닫는데 사용할 수 있음을 기억하세요.
 
-### Changing behaviour of function keys
+### 기능 키 동작 변경하기
 
-Windows desktop screen readers make use of the function keys (`F1` to `F12`) a lot.
+Windows 데스크탑 스크린리더는 기능 키 (`F1` ~ `F12`)를 많이 사용합니다.
 
-![Function keys on a keyboard](_media/function-keys-on-a-keyboard.png)
+![키보드의 기능 키](_media/function-keys-on-a-keyboard.png)
 
-By default, in macOS, you have to press the `Fn` key in addition to the specific function key to trigger it.
+기본적으로, macOS에서는, 특정 기능키를 트리거 하기 위해 `Fn`키와 함께 눌러야 합니다.
 
-Keyboard shortcuts of desktop screen readers are quite tricky (if you are really curious and want to learn more about this, skip ahead and read [The Insert Modifier Key](/knowledge/screen-readers/desktop/insert-modifier-key) and also [Screen Reader Shortcuts](/knowledge/screen-readers/desktop/screenreader-shortcuts)). As the function keys are often part of them, we suggest that you [change the behaviour of function keys (Apple Support)](https://support.apple.com/en-us/HT204436) so you do not have to use the `Fn` key for them, too.
+데스크탑 스크린리더의 키보드 단축키는 상당히 까다롭습니다 (정말 궁금하고 이에 대해 더 배우고 싶다면 [Insert 보조 키](/knowledge/screen-readers/desktop/insert-modifier-key)와 [스크린리더 단축키](/knowledge/screen-readers/desktop/screenreader-shortcuts)로 건너뛰어 읽어보세요). 기능 키는 종종 그것들의 일부이므로, [기능 키의 동작을 변경 (Apple Support)](https://support.apple.com/en-us/HT204436)하여 그것들에 대해 `Fn` 키를 사용할 필요가 없도록 하는 것을 권장합니다.
 
-### Emulating the Insert key
+### Insert 키 에뮬레이트하기
 
-Windows desktop screen readers rely heavily on the `Insert` key.
+Windows 데스크탑 스크린리더는 `Insert` 키에 크게 의존합니다.
 
-![Insert key on a keyboard](_media/insert-key-on-a-keyboard.png)
+![키보드의 insert 키](_media/insert-key-on-a-keyboard.png)
 
-This key is not available on Macs (in earlier days of macOS, it was the "Help" key), so you will have to emulate it. The most robust way to do this is using the free software Karabiner-Elements which translates any given key to any other in macOS.
+이 키는 Mac에서 사용할 수 없으므로(이전 macOS에서는, "Help"키 였음), 에뮬레이트해야 합니다. 이를 수행하는 가장 강력한 방법은 주어진 키를 다른 키로 변환하는 무료 소프트웨어 Karabiner-Elements를 사용하는 것입니다.
 
-- Download [Karabiner-Elements](https://pqrs.org/osx/karabiner/) and install it.
-    - Be sure to allow its execution in the `System Preferences`' `Security & Privacy` section.
-- After launching it, add a `Simple Modification`:
-    - From `right_option` to `insert`.
-    - Instead of `right_option`, you can choose any key you like. Make sure it is one you do not really need in your daily workflow.
+- [Karabiner-Elements](https://pqrs.org/osx/karabiner/)를 다운로드하고 설치하세요.
+    - `System Preferences`' `Security & Privacy` 섹션에서 실행을 허용해야 합니다.
+- 실행 후, `Simple Modification`을 추가하세요:
+    - `right_option`에서 `insert`로.
+    - `right_option` 대신, 원하는 키를 선택할 수 있습니다. 일상적인 워크플로에서 실제로 필요하지 않은 키인지 확인하세요.
 
-Alternatively, you can attach a physical [USB num lock keyboard](http://lmgtfy.com/?q=USB+num+lock+keyboard) (or any other keyboard offering an `Insert` key) to your Mac.
+그렇지 않으면, Mac에 물리적 [USB num lock 키보드](http://lmgtfy.com/?q=USB+num+lock+keyboard) (또는 `Insert` 키를 제공하는 다른 키보드)를 연결할 수 있습니다.
 
-## Working seamlessly with the VM
+## VM과 매끄럽게 작업하기
 
-We think it's easiest to have VMware running in `Single Window` mode (default):
+VMware를 `Single Window` 모드(기본값)로 실행하는 것이 가장 쉽다고 생각합니다:
 
-- Use `Command + Tab` to switch between Mac apps.
-- Use `Option + Tab` to switch between Windows apps (when VMware is active).
+- Mac 앱간 전환에 `Command + Tab`을 사용하세요.
+- Windows 앱 (VMWare가 활성화 된 경우) 전환에 `Option + Tab`을 사용하세요.
 
-If you want all Windows apps to be accessible from the Dock (and thus also in the application switcher when pressing `Command + Tab`), the "Unity" mode is pretty cool, too. Even the Windows' task bar icons will appear in the Mac's menu bar.
+Dock에서 (따라서 `Command + Tab`을 누를 때 앱 전환기에서도) 모든 Windows 앱에 접근하도록 하려면, "Unity" 모드가 매우 멋집니다. Windows의 작업표시줄도 Mac의 메뉴바에 나타납니다.

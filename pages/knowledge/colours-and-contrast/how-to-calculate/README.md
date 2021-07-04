@@ -1,59 +1,59 @@
 ---
-navigation_title: "How to calculate"
+navigation_title: "계산 방법"
 position: 1
 changed: "2019-12-15"
 ---
 
-# How to calculate colour contrast
+# 색상 대비 계산 방법
 
-**There is a mathematical formula to calculate the contrast ratio between two colours. Using this formula for contrast evaluation is always better than relying only on your eyes.**
+**두 색상 간의 명암비를 계산하는 수학 공식이 있습니다. 대비 평가를 위해 이 공식을 사용하는 것이 눈에만 의존 하는 것보다 항상 낫습니다.**
 
-Please note that we are keeping technical explanations simple here. If you want to read a detailed definition of the colour contrast formula, please go to [contrast ratio (W3.org)](https://www.w3.org/TR/WCAG20/#contrast-ratiodef).
+여기에서는 기술적인 설명을 간단하게 유지함에 참고하세요. 색상 대비 공식의 자세한 정의를 보려면, [명암비 (W3.org)](https://www.w3.org/TR/WCAG20/#contrast-ratiodef)로 이동하세요.
 
-## Relative luminance
+## 상대 휘도
 
-Contrast is calculated using "relative luminance", which is defined as:
+대비는 다음과 같이 정의되는 "상대 휘도"를 사용하여 계산됩니다:
 
-> The relative brightness of any point in a colorspace, normalized to `0` for darkest black and `1` for lightest white.
+> 가장 어두운 검정색 `0`과 가장 밝은 흰색 `1`에 대해 표준화 된 색 공간에 있는 모든 지점의 상대적 밝기.
 
-Quote: [relative luminance (W3.org)](https://www.w3.org/TR/WCAG20/#relativeluminancedef)
+출처: [상대 휘도 (W3.org)](https://www.w3.org/TR/WCAG20/#relativeluminancedef)
 
-![Relative luminance gradient](_media/relative-luminance-gradient.png)
+![상대 휘도 그라디언트](_media/relative-luminance-gradient.png)
 
-The relative luminance can be calculated from any colour code (like HEX or RGB).
+상대 휘도는 (HEX나 RGB 같은) 모든 색상 코드에서 계산 될 수 있습니다.
 
-## The formula
+## 공식
 
-To calculate the contrast ratio, the relative luminance of the lighter colour (`L1`) is divided through the relative luminance of the darker colour (`L2`):
+명암비를 계산하기 위해, 가장 밝은 색상(`L1`)의 상대 휘도를 더 어두운 색상(`L2`)의 상대 휘도로 나눕니다:
 
     (L1 + 0.05) / (L2 + 0.05)
 
-This results in a value ranging from `1:1` (no contrast at all) to `21:1` (the highest possible contrast). While high contrast is generally good, higher is not always better. Research indicates that a moderate contrast somewhere between the extremes may be best.
+결과는 `1:1` (대비가 전혀 없음)에서  `21:1` (가능한 가장 높은 대비) 사이의 값입니다. 고대비가 일반적으로 좋지만, 높을 수록 항상 좋은 것은 아닙니다. 연구에 따르면 극단 사이의 중간 정도의 대비가 최선일 수 있습니다.
 
-As an aside: In everyday practice we don't have to do this calculation manually, there are many helper tools available. More on that on the next page.
+여담으로: 일상적인 연습에서는 이 계산을 수동으로 할 필요가 없으며, 많은 사용 가능한 보조 도구가 있습니다. 자세한 내용은 다음 페이지에서 확인하세요.
 
-## Tone is not a key factor
+## 색조는 핵심 요소가 아닙니다
 
-For relative luminance, the tone of a colour (whether it is red, green, blue, yellow...) is not a key factor. After all, adequate contrast is also necessary for people who can't perceive certain colours or people who don't see colours at all.
+상대 휘도의 경우, 색상의 색조는 (빨강, 초록, 파랑, 노랑...) 핵심 요소가 입니다. 결국, 특정 색상을 인식 할 수 없는 사람이나 전혀 색상을 보지 못하는 사람에 대한 적절한 대비가 필요합니다.
 
-This means that visually distinct colours don't automatically have a high contrast ratio. The following example demonstrates this.
+이는 시각적으로 구별되는 색상이 자동으로 높은 명암비를 가지지 않음을 의미합니다. 다음 예가 이를 보여줍니다.
 
-![Colour tiles in the colours blue, red and green](_media/three-colours-tiles.png)
+![파랑, 빨강, 초록 색상의 색상 타일](_media/three-colours-tiles.png)
 
-Contrast results:
+대비 결과:
 
-- Red/blue = `1.1:1`
-- Blue/green = `1.0:1`
-- Green/red = `1.2:1`
+- 빨강/파랑 = `1.1:1`
+- 파랑/초록 = `1.0:1`
+- 초록/빨강 = `1.2:1`
 
-While visually non-impaired users might be able to easily perceive the green and red words on the blue background of the following image...
+시각 장애가 없는 사용자들은 다음 이미지의 파란 배경의 녹색과 빨간 단어를 쉽게 인식할 수 있습니다...
 
-![The words "Hello" in green and "Goodbye" in red written on a blue background](_media/three-colours-words.png)
+![파란 배경색에 녹색으로 쓰여진 "Hello"와 빨간색으로 쓰여진 "Goodbye"](_media/three-colours-words.png)
 
-... others will have a very hard time differentiating between text and background. This is how it might look for someone who sees in grayscale:
+... 그렇지 않은 사람들은 텍스트와 배경을 구분하기가 매우 어려울 것입니다. 회색조로 보는 사람을 찾는 방법입니다:
 
-![The same picture with the words "Hello" and "Goodbye" but in grayscale](_media/three-colours-words-grayscale.png)
+![회색조에서의 "Hello"와 "Goodbye"가 있는 동일한 그림](_media/three-colours-words-grayscale.png)
 
-It's therefore impotant to remember:
-- Always examine contrast ratios as calculated values, don't just rely on your eyes. More on that in the next [chapter "How to exampine colour contrast"](/knowledge/colours-and-contrast/how-to-examine/).
-- Colour contrast has its limits, especially when multiple objects have to be clearly distinguishable not just from the background but also from each other. More on that in the [chapter "Colour is not enough"](/knowledge/colours-and-contrast/colour-is-not-enough/).
+따라서 다음을 기억하는 것이 중요합니다:
+- 눈에만 의존하지 말고, 항상 계산 된 값으로 대비를 확인하세요. 더 자세한 내용은 다음 [챕터 "색상 대비를 검사하는 방법How to exampine colour contrast"](/knowledge/colours-and-contrast/how-to-examine/)에 있습니다.
+- 특히 여러 객체를 배경에서 뿐 아니라 서로 명확하게 구분해야 하는 경우, 색상 대비에는 한계가 있습니다. 더 자세한 내용은 [챕터 "색상은 충분하지 않습니다"](/knowledge/colours-and-contrast/colour-is-not-enough/)에 있습니다.

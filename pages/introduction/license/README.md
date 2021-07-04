@@ -4,19 +4,20 @@ position: 4
 changed: "2018-06-15"
 ---
 
-# A license for 100% true Open Source
+# 100% 진정한 오픈 소스 라이센스
 
-**The Accessibility Developer Guide is published under the MIT License.**
+**접근성 개발자 지침은 MIT 라이센스에 따라 게시됩니다.**
 
-© 2018, «Access for all», Swiss Foundation for technologies that fit the needs of persons with disabilities.
+© 2018, «모두를 위한 접근», 장애인 요구에 맞는 기술을 위한 스위스 재단.
 
 Stiftung «Zugang für alle»<br>
 Friedheimstrasse 8<br>
 CH-8057 Zürich<br>
 [www.access-for-all.ch](http://www.access-for-all.ch)
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+다음 조건 하에, 이 소프트웨어와 관련된 문서 파일 (이하 "스프트웨어")의 사본을 보유하게 되는 모든 사용자에 대하여, 사용, 복제, 변경, 통합, 발행, 배포, 2차 라이센스, 소프트웨어 복사본의 판매 권한을 포함하여, 어떠한 제약 없이 소프트웨어를 취급할 수 있고 소프트웨어를 제공받은 사람이 그렇게 할 수 있도록 하는 허용하는 권한이 무료로 부여됩니다:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+위의 저작권 표시 및 이 허가 표시가 소프트웨어의 모든 사본 또는 상당 부분에 포함되어야 합니다.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+소프트웨어는 상품성, 특정 용도에 대한 적합성, 준법성의 보증을 포함하되 이에 국한되지 않는 명시적 또는 묵시적 어떠한 보증 없이 "있는 그대로" 제공됩니다.
+어떠한 경우에도 저작자 또는 저작권 보유자는 계약, 불법 행위, 기타 방식으로 소프트웨어 또는 소프트웨어의 사용과 관련하여 안팎에서 발생하는 모든 청구, 손해, 기타 법적 책임에 대해 책임을 지지 않습니다.

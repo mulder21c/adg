@@ -1,9 +1,14 @@
 ---
-navigation_title: "Screen readers"
+navigation_title: "스크린리더"
 position: 3
 changed: "2020-04-07"
 ---
 
-# Screen readers
+# 스크린리더
 
-**Operating websites with screen readers is one of the most efficient techniques to ensure accessibility. For beginners, screen reader usage can be a bit confusing at first, especially if the software is not configured properly for testing purposes. In this chapter, you will learn how to install and configure both mobile and desktop screen readers in a way for you to use them conveniently.**
+**스크린리더로 웹 사이트를 운영하는 것은 접근성을 보장하는 가장 효율적인 기법 중 하나입니다. 초심자의 경우, 스크린리더 사용이 처음에는 약간 혼란스러울 수 있고, 특히 소프트웨어가 테스트 목적으로 적절하게 구성되지 않은 경우 더욱 그렇습니다. 이 챕터에서는 모바일과 데스크탑 스크린리더를 편리하게 사용할 수 있도록 설치하고 구성하는 방법을 배웁니다.**
+
+::: translator-comment
+지침이 작성 된 시점과 현재 스크린리더 사이에 시간 간극이 있기 때문에 스크린샷과 실제 구동 화면, 메뉴 설명 등이 다를 수 있습니다.   
+번역 시점 기준 (2021.02) 보정을 해두었으나 차이가 있는 부분이 있을 수 있으니 유념하여 주시기 바랍니다.
+:::

@@ -1,39 +1,39 @@
 ---
-navigation_title: "VoiceOver/iOS"
+navigation_title: "보이스오버/iOS"
 position: 1
 changed: "2020-04-07"
 ---
 
-# VoiceOver/iOS configuration
+# 보이스오버/iOS 구성
 
-**VoiceOver/iOS is the most advanced mobile screen reader. It is pre-installed on iOS devices, easy to understand, and the most used mobile screen reader in Western countries. Because of its reliable and easy activation shortcut, it is the mobile screen reader of choice when developing accessible websites.**
+**보이스오버/iOS는 가장 진보 된 모바일 스크린리더입니다. iOS 기기에 기본 설치되어 있고, 이해하기 쉬우며, 서구 국가에서 가장 많이 사용되는 모바일 스크린리더입니다. 안정적이고 쉬운 활성화 단축키 덕분에, 접근 가능한 웹사이트를 개발할 때 선택하는 모바일 스크린 리더입니다.**
 
 ## iOS vs. macOS
 
-By the way: VoiceOver is available for both mobile (iOS) and desktop (macOS) platforms. To avoid confusion, we always add the operating system to its name: VoiceOver/iOS and VoiceOver/macOS.
+참고: 보이스오버는 모바일(iOS)와 데스크탑(macOS) 플랫폼 모두에서 사용할 수 있습니다. 혼동을 피하기 위해, 이름에 운영 체제를 추가합니다: 보이스오버/iOS와 보이스오버/macOS.
 
-By the way: although VoiceOver/macOS is one of the most advanced and user friendly screen readers today, it is not part of our guide. This is due to the fact that it is not as widespread as Windows screen readers (if you are really curious and want to learn more about this, skip ahead and read [Relevant combinations of screen readers and browsers](/knowledge/screen-readers/relevant-combinations/)).
+참고: 보이스오버/macOS는 오늘날 가장 진보되고 사용자 친화적인 스크린리더 중 하나이지만, 본 지침의 일부는 아닙니다. 이는 Windows 스크린리더 만큼 널리 보급되지 않았기 때문입니다 (정말 궁금하고 이에 대해 더 배우고 싶다면, [스크린리더와 브라우저의 관련 조합](/knowledge/screen-readers/relevant-combinations/)로 건너뛰어 읽어보세요).
 
-## Running VoiceOver/iOS
+## 보이스오버/iOS 실행
 
-### A little warning first
+### 먼저 약간의 경고
 
-When VoiceOver/iOS is running, interaction with the touch screen of your device is very different to default behaviour. If you do not know how to handle it, you may have a hard time using your phone - in the worst case you may not know how to stop VoiceOver/iOS anymore and be left with a "weird" and seemingly uncontrollable device!
+보이스오버/iOS가 실행 중일 경우, 기기의 터치 스크린과의 상호작용이 기본 동작과 매우 다릅니다. 처리 방법을 모르면 폰을 사용하는데 어려움을 격을 수 있습니다 - 최악의 경우 보이스오버/iOS를 종료하는 방법을 모를 수 있고, "이상하고" 겉보기에 통제 불가능한 것 같은 기기가 될 수 있습니다!
 
-To be safe, please make sure you have configured the start/stop shortcut (see below) before playing around with VoiceOver/iOS.
+안전을 위해 보이스오버/iOS를 사용하기 전에 시작/중지 바로 바기(아래 참조)를 구성했는지 확인하세요.
 
-### Shortcut
+### 단축키
 
-The best way to toggle VoiceOver/iOS is to assign it to the accessibility shortcut. Go to `Settings` -> `General` -> `Accessibility` -> `Shortcut` and select `VoiceOver`.
+보이스오버/iOS를 전환하는 가장 좋은 방법은 손쉬운 사용 단축키를 할당하는 겁니다. `설정` -> `손쉬운 사용` -> `손쉬운 사용 단축키`로 가서 `VoiceOver`를 선택하세요.
 
-Now simply triple tap (press three times in rapid succession) the Home button to turn VoiceOver on or off. VoiceOver says "VoiceOver on" or "VoiceOver off" according to its status.
+이제 간단하게 측면 버튼을 세 번 탭하여 (빠른 연속 세 번 누름) 보이스오버를 켜거나 끌 수 있습니다. 보이스오버는 상태에 따라 "보이스오버를 켭니다" 또는 "보이스오버를 끕니다"라고 말합니다.
 
-### Manual start/stop
+### 수동 시작/중지
 
-You can also start and stop VoiceOver/iOS manually. Go to `Settings` -> `General` -> `Accessibility`, then toggle `VoiceOver`.
+보이스오버/iOS를 수동으로 시작 및 중지 할 수도 있습니다. `설정` -> `손쉬운 사용` -> `VoiceOver`로 가서, `VoiceOver`를 토글합니다.
 
-### Display Caption Panel
+### 자막 패널 표시
 
-This setting displays the current announcement as visual text on screen.
+이 설정은 현재 낭독을 스크린에 가시적 텍스트로 표시합니다.
 
 ![VoiceOver/iOS Caption Panel](_media/voiceover-ios-caption-panel.png)

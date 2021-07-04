@@ -1,9 +1,9 @@
 ---
-navigation_title: "Helper tools"
+navigation_title: "보조 도구"
 position: 4
 changed: "2018-04-02"
 ---
 
-# Accessibility helper tools
+# 접근성 보조 도구
 
-**Beneath big players like screen readers and browsers (including extensions), there is a vast number of software that helps in developing accessible websites. In this chapter, you will find a collection of our favourite helper tools. Some of them are third party software, others are integrated into Windows.**
+**스크린리더와 브라우저 (확장 포함) 같은 큰 플레이어 아래에, 접근 가능한 웹사이트를 개발하는데 도움이 되는 다양한 소프트웨어가 있습니다. 이 챕터에서, 우리가 좋아하는 보조 도구 모음을 찾을 수 있습니다. 그들 중 일부는 서드파티 소프트웨어이고, 다른 일부는 Windows에 통합되어 있습니다.**

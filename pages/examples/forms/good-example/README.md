@@ -60,7 +60,7 @@ This may be counter-intuitive, because it does not have anything to do with an a
 
 ![Google autosuggest](_media/google-autosuggest.png)
 
-If you are really curious and want to learn more about this, skip ahead and read [Autosuggest widget (or: autocomplete, lookahead, typeahead)](/examples/widgets/autosuggest).
+정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Autosuggest widget (or: autocomplete, lookahead, typeahead)](/examples/widgets/autosuggest).
 
 #### Missing announcements
 
@@ -106,7 +106,7 @@ Generally speaking, disabling inputs is seldom what you want. You should use `re
 
 As already pointed out, in our example, we have one separated `<label>` for each form control and associate those pairs using the `for` attribute.
 
-But HTML also the `<label>` to surround the form control, removing the need for a `for` attribute. But this approach can lead to problems in some situations, so we do not recommend to do it (if you are really curious and want to learn more about this, skip ahead and read [Placing non-interactive content between form controls](/examples/forms/non-interactive-content)).
+But HTML also the `<label>` to surround the form control, removing the need for a `for` attribute. But this approach can lead to problems in some situations, so we do not recommend to do it (정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Placing non-interactive content between form controls](/examples/forms/non-interactive-content)).
 
 ## Conclusion
 
@@ -116,4 +116,4 @@ However, although basic forms are a longstanding and fundamental part of the HTM
 
 Here we presented some of the possible irritations we know and how to avoid them. But there may be more, especially in complex forms. This can make it hard for developers testing their solution for accessibility to decide whether their solution is "good enough", or whether they manually need to provide additional optimisations.
 
-Generally speaking: if your forms are coded according to long established HTML standards, you should be fine most of the time. Still, it can be meaningful (or even essential) in some situations to add a little more guidance, especially for screen reader users (if you are really curious and want to learn more about this, skip ahead and read [Placing non-interactive content between form controls](/examples/forms/non-interactive-content)).
+Generally speaking: if your forms are coded according to long established HTML standards, you should be fine most of the time. Still, it can be meaningful (or even essential) in some situations to add a little more guidance, especially for screen reader users (정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Placing non-interactive content between form controls](/examples/forms/non-interactive-content)).

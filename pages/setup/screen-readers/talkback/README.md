@@ -1,44 +1,44 @@
 ---
-navigation_title: "TalkBack"
+navigation_title: "톡백"
 position: 2
 changed: "2020-04-23"
 ---
 
-# TalkBack configuration
+# 톡백 구성
 
-**TalkBack is the mobile screen reader of Android. It is pre-installed on Android devices, easy to understand, and the most used mobile screen reader in non-Western countries. Because of its rather unreliable activation shortcut, TalkBack is a bit less convenient than VoiceOver/iOS, but still needs to be used for frequent counterchecking accessibility on mobile platforms.**
+**톡백은 안드로이드의 모바일 스크린리더 입니다. 안드로이드 기기에 기본 설치되어 있고, 이해하기 쉬우며, 비 서구 국가에서 가장 많이 사용되는 모바일 스크린리더 입니다. 다소 신뢰할 수 없는 활성화 단축키 때문에, 톡백은 보이스오버/iOS보다 약간 덜 편리하지만, 모바일 플랫폼에서 접근성을 자주 대응하는데 여전히 사용할 필요가 있습니다.**
 
-On some older Android versions, the TalkBack service is not enabled by default. In this case, just install or update the [Android Accessibility Suite](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US) from the Google Play Store.
+일부 이전 안드로이드 버전에서, 톡백 서비스가 기본적으로 활성화 되어 있지 않습니다. 이 경우, 구글 플레이 스토어에서 [Android 접근성 도구 모음](https://play.google.com/store/apps/details?id=com.google.android.marvin.talkback&hl=en_US)을 설치하거나 업데이트 하세요.
 
-Android comes equipped with a number of accessibility features which can usually be configured under `Settings` -> `Accessibility`.
+안드로이드는 일반적으로 `Settings` -> `Accessibility`에 구성 될 수 있는 다양한 접근성 기능이 탑재되어 있습니다.
 
-We find the default settings to be sensible and a good starting point. But if you want to explore further, extensive information about the TalkBack setup options can be found at the [official TalkBack setup page](https://support.google.com/accessibility/android/answer/6283655).
+기본 설정은 적절하고 출발점이 좋다고 생각합니다. 하지만 더 자세히 알아보려면, 톡백 설정 옵션에 대한 자세한 내용을 [공식 톡백 설정 페이지](https://support.google.com/accessibility/android/answer/6283655)에서 확인 할 수 있습니다.
 
-![TalkBack icon](_media/talkback-icon.png)
+![톡백 아이콘](_media/talkback-icon.png)
 
-## Running TalkBack
+## 톡백 실행
 
-### A little warning first
+### 먼저 약간의 경고
 
-When TalkBack is running, interaction with the touch screen of your device is very different to default behaviour. If you do not know how to handle it, you may have a hard time using your phone - in the worst case you may not know how to stop TalkBack anymore and be left with a "weird" and seemingly uncontrollable device!
+톡백이 실행 중일 경우, 기기의 터치 스크린과의 상호작용이 기본 동작과 매우 다릅니다. 처리 방법을 모르면 폰을 사용하는데 어려움을 격을 수 있습니다 - 최악의 경우 톡백을 종료하는 방법을 모를 수 있고, "이상하고" 겉보기에 통제 불가능한 것 같은 기기가 될 수 있습니다!
 
-To be safe, please make sure you have configured the start/stop shortcut (see below) before playing around with TalkBack.
+안전을 위해, 톡백을 사용하기 전에 시작/중지 바로 바기(아래 참조)를 구성했는지 확인하세요.
 
-### Shortcut
+### 단축키
 
-This setting allows the user to quickly activate the Android accessibility features, including TalkBack.
+이 설정은 사용자가 톡백을 포함하여, 안드로이드 접근성 기능을 빠르게 활성화 하게 합니다.
 
-- On newer Android versions, the shortcut is operated by pressing both volume keys for 3 seconds.
-- On older Android versions this was a 2-step procedure, requiring you to first press the power button and then press both volume keys for 5 seconds.
+- 최신 안드로이드 버전에서, 단축키는 볼륨 키들을 3초 동안 눌러 작동됩니다.
+- 이전 안드로이드 버전에서 단축키는 먼저 전원 버튼을 누른 다음 볼륨 키를 5초 동안 누를 것을 요구하는 2 단계 절차였습니다.
 
-We've found that, in practice, no matter the Android version, the shortcut may or may not work, depending on the device brand and further user interface customisations done by the vendor.
+실제로, 안드로이드 버전에 관계 없이, 기기 브랜드에 따라 그리고 공급 업체에 의한 추가 유저 인터페이스 커스텀에 따라 단축키가 동작하거나 동작하지 않을 수 있음을 발견했습니다.
 
-### Manual start/stop
+### 수동 시작/중지
 
-You can also start and stop TalkBack manually. Go to `Settings` -> `Accessibility`, then toggle `TalkBack`.
+톡백을 수동으로 시작하고 중지할 수 있습니다. `Settings` -> `Accessibility`로 가서 `TalkBack`을 토글하세요.
 
-### Display Speech Output
+### 음성 출력 표시
 
-This setting displays the current announcement as visual text on screen.
+이 설정은 현재 낭독을 스크린에 가시적 텍스트로 표시합니다.
 
-![TalkBack Speech Output](_media/talkback-speech-output.png)
+![톡백 음성 출력](_media/talkback-speech-output.png)

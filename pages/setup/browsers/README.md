@@ -1,9 +1,9 @@
 ---
-navigation_title: "Browsers"
+navigation_title: "브라우저"
 position: 2
 changed: "2018-05-02"
 ---
 
-# Web browsers
+# 웹 브라우저
 
-**For developing accessible websites, you need some common Windows web browsers. In this chapter, you will learn how to install and configure them. Additionally, we introduce some useful extensions and bookmarklets that will support you in your daily routine.**
+**접근 가능한 웹 사이트를 개발하려면, 몇 가지 일반적인 Windows 웹 브라우저가 필요합니다. 이 챕터에서는, 이들을 설치하고 구성하는 방법을 배웁니다. 또한, 일상 루틴에서 도움이 될 몇 가지 유용한 확장 기능과 북마클릿을 소개합니다.**

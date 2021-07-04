@@ -21,7 +21,7 @@ gulp.task('html', cb =>
     {
       src: ['./pages/**/*.md', '!./pages/**/_examples/**/*.md'],
       base: './pages',
-      host: 'https://www.accessibility-developer-guide.com',
+      host: 'https://adg.mulder21c.io',
       sitemap: './dist/sitemap.xml',
       feed: {
         json: './dist/feed/feed.json',

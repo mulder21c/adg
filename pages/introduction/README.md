@@ -1,15 +1,15 @@
 ---
-navigation_title: "Introduction"
+navigation_title: "소개"
 position: 1
 changed: "2018-06-06"
 ---
 
-# Introduction to our guide
+# 지침 소개
 
-**The «Accessibility Developer Guide» is an initiative of «Access for all», Swiss Foundation for technology adapted to people with disabilities. It is developed and maintained in collaboration with a number of acclaimed web agencies. The vision behind the Accessibility Developer Guide is to bridge the gap between providers of websites and users with special needs.**
+**«접근성 개발자 지침»은 장애인을 위한 기술에 대한 스위스 재단인 «모두를 위한 접근»의 이니셔티브입니다. 여러 유명한 웹 에이전시들과 협력하여 개발 및 유지 관리됩니다. 접근성 개발자 지침의 비전은 웹 사이트 제공자와 특정 요구 사항이 있는 사용자 간의 격차를 해소하는 것입니다.**
 
-## How to go through this part
+## 이 파트를 살펴보는 법
 
-This part gives you a broad picture of how to use the Accessibility Developer Guide either as a comprehensive tutorial for learning accessibility, as well as a quick reference for your daily development business. As the guide is Open Source, we welcome contributions from the community, and here we explain how to accomplish that.
+이 파트는 접근성 학습을 위한 포괄적인 튜토리얼 뿐 아니라 일상적인 개발 작업을 위한 빠른 참고자료로서 접근 가능한 개발 지침을 사용하는 방법의 큰 그림을 제공합니다. 본 지침은 오픈 소스이므로, 커뮤니티로의 기여를 환영하고 이를 달성하는 방법을 설명합니다.
 
-This part also provides information about the so-called «Accessibility Alliance», consisting of the people and organisations behind this initiative, and how to contact and join them.
+이 파트는 또한 이 이니셔티브 배후 인물과 조직으로 구성된, 소위 «접근성 연합»에 대한 정보와, 이들에게 연락하고 참여하는 방법을 제공합니다.

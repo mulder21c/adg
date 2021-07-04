@@ -102,7 +102,7 @@ Sadly, browser support is buggy:
 
 What a bummer. This is why we recommend to separate form controls and their `<label>` elements strictly and to use the `for` attribute to connect them.
 
-And for associating additional content to a control ("Please enter..."), we advise to stick to better solutions (if you are really curious and want to learn more about this, skip ahead and read [Placing non-interactive content between form controls](/examples/forms/non-interactive-content)), at least if you are using `<fieldset>`/`<legend>` structures.
+And for associating additional content to a control ("Please enter..."), we advise to stick to better solutions (정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Placing non-interactive content between form controls](/examples/forms/non-interactive-content)), at least if you are using `<fieldset>`/`<legend>` structures.
 
 ### More than one label per input
 

@@ -1,26 +1,26 @@
 ---
-navigation_title: "Knowledge"
+navigation_title: "지식"
 position: 3
 changed: "2019-12-15"
 ---
 
-# Knowledge about accessibility
+# 접근성 관련 지식
 
-**To begin developing accessible websites, some basic knowledge about the required tools and techniques is needed. The chapters in this 3rd part of our guide, the Knowledge part, will support you to get acquainted with various important topics of rather theoretical nature - with high practical value though. They will prepare you to actively dive into the world of accessible website development.**
+**접근 가능한 웹 사이트 개발을 시작하려면, 필요한 도구 및 기술에 대한 몇 가지 기본 지식이 필요합니다. 지침의 이 세 번째 파트, 지식 파트의 챕터들은 다소 이론적인 성격의 (하지만 실질적인 가치가 높습니다) 다양한 중요한 주제를 알 수 있도록 지원합니다. 여러분을 접근 가능한 웹 사이트 개발의 세례로 적극적으로 뛰어들도록 준비시킬 것입니다.**
 
-To be able to ensure accessibility of your websites, you need to understand how its visitors use them, and what you have to pay attention to when optimising your websites for their specific needs.
+웹 사이트의 접근성을 보장하려면, 방문자가 웹 사이트를 어떻게 사용하는지, 그리고 그들의 특정 요구 사항에 맞게 웹 사이트를 최적화 할 때 주의해야 할 사항을 이해해야 합니다.
 
-You may find it surprising that the first thing we will be talking about is explaining our good old friend, plain traditional HTML. You may feel that being a serious senior full stack web developer, this topic truly would not offer anything new to you. But acknowledging the fact that most accessibility problems are the result of just bad HTML, you may be surprised about the information value we provide you here. It will most certainly change the way you look at HTML.
+여러분은 우리가 가장 먼저 이야기 할 것이 우리의 오랜 친구 인 평범한 전통적인 HTML에 대해 설명하는 것이라는 사실에 놀랄지도 모릅니다. 진정한 시니어 풀 스택 웹 개발자라면, 이 주제가 여러분에게 정말로 새로운 것을 제공하지 않을 것이라고 느낄 수도 있습니다. 하지만 가장 많은 접근성 문제가 잘못 된 HTML의 결과라는 사실을 인정하면, 여기서 제공하는 정보 가치에 놀랄 수 있습니다. 여러분이 HTML을 보는 방식을 절대로 틀림없이 바꿀 것입니다. 
 
-Then, while it may be the most natural thing in the world for you to read a website on a traditional screen and control it using a mouse and keyboard, you may not be familiar with alternative devices that surprisingly many users worldwide rely on. So, get the fundamentals of those: how they work, how they are commonly used, and what you have to pay attention to when providing support for them.
+그리고, 전통적인 화면에서 웹 사이트를 읽고 마우스와 키보드를 사용하여 조작하는 것이 세상에서 가장 자연스러운 일일지 모르지만, 여러분은 놀랍게도 많은 사용자들이 이존하는 대체 기기에 익숙하지 않을 수도 있습니다. 그래서, 그것들의 기본사항: 작동 방식, 일반적으로 사용되는 방식, 그것들에 대한 지원을 제공할 때 주목해야 하는 것들을 얻으세요.
 
-## How to go through this part
+## 이 파트를 살펴보는 법
 
-First of all, before you continue reading, be sure you have gone through the previous parts already:
+우선, 계속 읽기 전에, 이전 파트를 읽었는지 확인하세요:
 
-- [Introduction to our guide](/introduction)
-- [Setup of the accessibility environment](/setup)
+- [지침 소개](/introduction)
+- [접근성 환경 설정](/setup)
 
-We recommend reading all chapters of the current part thoroughly without exception, even when you may feel like you are knowing certain topics inside out. Accessibility is a topic full of misunderstandings, half-truths, and technical peculiarities. Our guide aims to provide fool-proof knowledge that should finally give answers to the most relevant questions.
+여러분이 특정 주제를 완전히 알고 있다고 느껴질 때도 예외 없이, 현재 파트의 모든 챕터를 읽어보기를 권합니다. 접근성은 잘못 된 이해, 반쪽짜리 진실, 기술적 특성으로 가득 찬 주제입니다. 본 지침은 가장 관련성이 높은 질문에 대한 답을 제공하는 언전 지식(fool-proof)을 제공하는 것을 목표로 합니다.
 
-You should stick to the sequential order of the chapters, as they build up on each other. So we neither recommend jumping extensively between the parts of this guide, nor between each parts' chapters. To support the sequential reading flow, we generally do not offer links pointing "outside" the current chapter (except for some rare, well justified cases).
+챕터들이 서로 위에 쌓였으므로, 챕터의 순차적인 순서를 따라야 합니다. 따라서 이 지침의 파트난 각 파트의 챕터 사이를 광범위하게 건너 뛰지 않기를 권합니다. 순차적인 읽기 흐름을 지원하기 위해, 일반적으로 (일부 드물고 정당한 경우를 제외하고) 현재 챕터의 "외부"를 가리키는 링크를 제공하지 않습니다.

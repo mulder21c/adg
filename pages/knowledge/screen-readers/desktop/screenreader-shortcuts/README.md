@@ -23,7 +23,7 @@ And remember: when talking about the `NVDA` or `JAWS` keys, we mean the `Insert`
 - `1`/`Shift + 1` to `6`/`Shift + 6` moves to the next/previous heading of that level.
 - `K`/`Shift + K` moves to the next/previous link.
 - `T`/`Shift + T` moves to the next/previous table.
-- `Control + Alt + Arrow keys` moves the cursor around a table's cells.
+- `Control + Alt + 방향 키s` moves the cursor around a table's cells.
 - `L`/`Shift + L` moves to the next/previous list.
 - `I`/`Shift + I` moves to the next/previous list item.
 - `F`/`Shift + F` moves to the next/previous form control.

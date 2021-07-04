@@ -30,13 +30,13 @@ So if you change some content on your website, you have to take care that the sc
 
 ### Using ARIA live region
 
-One method is to use an ARIA live region. But this may interfere with the current output. If you are really curious and want to learn more about this, skip ahead and read [Noticing screen readers using alert role](/examples/sensible-aria-usage/alert).
+One method is to use an ARIA live region. But this may interfere with the current output. 정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Noticing screen readers using alert role](/examples/sensible-aria-usage/alert).
 
 ### Moving focus
 
 If the focus is set to an element, the screen reader announces it. This can be an easy way to inform users about something on the page: simply set the focus on it. Be sure though that this does not result in disorientation for the screen reader user: it shouldn't happen "out of the blue", but only when the screen reader user has done some interaction that caused the page change.
 
-An example for moving the focus sensibly is a datepicker widget: when it opens, the focus is set into the available dates, so the user can pick one. If you are really curious and want to learn more about this, skip ahead and read [Datepicker widget](/examples/widgets/datepicker).
+An example for moving the focus sensibly is a datepicker widget: when it opens, the focus is set into the available dates, so the user can pick one. 정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Datepicker widget](/examples/widgets/datepicker).
 
 And by the way, you should not set the focus on a big container of information, as it would cause the screen reader announce all of its content in one go. This usually is way too much for the user to handle. Instead, set the focus on the first content element, for example the close button of a dialog (instead of the dialog itself): after its announcement, the screen reader stops, and the user can decide when to continue to read. And last but not least: be sure to give this focused element a proper, self-speaking label (for example "Close terms and conditions dialog").
 
@@ -44,15 +44,15 @@ And by the way, you should not set the focus on a big container of information, 
 
 When the screen reader's focus is placed on an element, and suddenly this element is modified in some way, in certain cases the screen reader notices the modification and announces it to the user.
 
-This works best for form controls, for example text inputs: if it is focused, and its value is changed using JavaScript, screen readers announce the new value. This can be very useful, for example when implementing an autocomplete: when users toggle through the suggestions with the arrow keys, the currently selected value is set to the input field and is directly announced. If you are really curious and want to learn more about this, skip ahead and read [Autosuggest widget (or: autocomplete, lookahead, typeahead)](/examples/widgets/autosuggest).
+This works best for form controls, for example text inputs: if it is focused, and its value is changed using JavaScript, screen readers announce the new value. This can be very useful, for example when implementing an autocomplete: when users toggle through the suggestions with the 방향 키s, the currently selected value is set to the input field and is directly announced. 정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Autosuggest widget (or: autocomplete, lookahead, typeahead)](/examples/widgets/autosuggest).
 
 Sadly, for non-interactive elements, this does not seem to work reliably. So for example, if a link is focused by the screen reader, it does not notice modifications to its attributes (like `aria-label` or `title`), and also replacing its content is not noticed.
 
 ## Adding descriptive text
 
-If a page's content structure is unintuitive, or its interactive elements (widgets) are hard to understand, it sometimes can be helpful to add a visually hidden descriptive text for screen reader users. If you are really curious and want to learn more about this, skip ahead and read [Hiding elements visually by moving them off-screen](/examples/hiding-elements/visually).
+If a page's content structure is unintuitive, or its interactive elements (widgets) are hard to understand, it sometimes can be helpful to add a visually hidden descriptive text for screen reader users. 정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Hiding elements visually by moving them off-screen](/examples/hiding-elements/visually).
 
-In general though, this often is a sign for bad interaction design: if it needs to be doubted that some users will understand what is going on on your page, you should think about optimising your page in general. We have seen very complex functionality that is very easy to control for all users. If you are really curious and want to learn more about this, skip ahead and read [Widgets simply working for all](/knowledge/semantics/widgets).
+In general though, this often is a sign for bad interaction design: if it needs to be doubted that some users will understand what is going on on your page, you should think about optimising your page in general. We have seen very complex functionality that is very easy to control for all users. 정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Widgets simply working for all](/knowledge/semantics/widgets).
 
 ## Using screen readers as reference
 
@@ -69,4 +69,4 @@ We advise you to use NVDA for this. Every now and then, do not forget to counter
 
 Optimising a website for screen reader usage needs a lot of awareness of the typical pitfalls. Providing proper semantics helps truly a lot already, but the full deal requires some additional developer skills from you.
 
-All of the code examples in our guide are fully accessible and can provide you a lot of inspiration. If you are really curious and want to learn more about this, skip ahead and read [Examples of accessibility patterns](/examples).
+All of the code examples in our guide are fully accessible and can provide you a lot of inspiration. 정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Examples of accessibility patterns](/examples).

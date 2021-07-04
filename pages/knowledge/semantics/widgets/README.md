@@ -42,4 +42,4 @@ This is a huge improvement in every aspect, be it usability, accessibility, read
 
 It is not always as easy as with tablists. But the approach of using standard HTML form controls to mimic modern control patterns can be applied to most requirements. In fact, this approach is the basic of most complex interactive code examples in this guide.
 
-If you are really curious and want to learn more about this, skip ahead and read [Interactive widgets](/examples/widgets).
+정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Interactive widgets](/examples/widgets).

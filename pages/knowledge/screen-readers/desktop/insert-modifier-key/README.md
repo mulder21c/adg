@@ -1,20 +1,20 @@
 ---
-navigation_title: "The Insert modifier key"
+navigation_title: "The Insert 보조 키"
 position: 2
 changed: "2020-04-07"
 ---
 
-# The Insert modifier key
+# The Insert 보조 키
 
 **Desktop screen readers are usually controlled with the keyboard only. Offering tons of functionalities, all of them ought to be triggered by keyboard shortcuts. But what to do if none of the standard keyboard combinations are available anymore?**
 
 ## Problem: no keyboard combinations left
 
-Most traditional keyboard shortcuts (a combination of at least one modifier key and any other key, if you haven't done this yet, go back and read [Controlling a computer with a keyboard only](/knowledge/keyboard-only/controlling-a-computer)) are already in use by the operating system and running applications.
+Most traditional keyboard shortcuts (a combination of at least one 보조 키 and any other key, if you haven't done this yet, go back and read [Controlling a computer with a keyboard only](/knowledge/keyboard-only/controlling-a-computer)) are already in use by the operating system and running applications.
 
-## Solution: using Insert as modifier key
+## Solution: using Insert as 보조 키
 
-Both screen readers NVDA and JAWS worked around this problem by hijacking the `Insert` key as their modifier key. So most interaction with desktop screen readers involves a combination of `Insert` and other keys.
+Both screen readers NVDA and JAWS worked around this problem by hijacking the `Insert` key as their 보조 키. So most interaction with desktop screen readers involves a combination of `Insert` and other keys.
 
 Some examples:
 
@@ -29,7 +29,7 @@ Some examples:
 
 If you're on a Mac running NVDA or JAWS in a virtual machine, there are several ways you can work around the missing `Insert` key; if you haven't done this yet, go back and read [Configuring VMware Fusion on macOS](/setup/windows/vmware-on-macos).
 
-Both NVDA and JAWS offer the option to use `Caps Lock` instead of `Insert` as a modifier key. For some reason though, this does not seem to work in VMware Fusion.
+Both NVDA and JAWS offer the option to use `Caps Lock` instead of `Insert` as a 보조 키. For some reason though, this does not seem to work in VMware Fusion.
 
 ## Naming convention
 

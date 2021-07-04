@@ -57,7 +57,7 @@ In addition to this, grouped elements are indicated with their legend like `Hobb
 
 As an alternative to navigating through the form elements directly on the page, screen readers offer a form outline view.
 
-In the upcoming text, we are referring to the keys `NVDA` and `JAWS`. If you do not know about them, see [The Insert Modifier Key](/knowledge/screen-readers/desktop/insert-modifier-key).
+In the upcoming text, we are referring to the keys `NVDA` and `JAWS`. If you do not know about them, see [The Insert 보조 키](/knowledge/screen-readers/desktop/insert-modifier-key).
 
 #### Elements List (NVDA)
 

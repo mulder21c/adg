@@ -70,7 +70,7 @@ To make the image accessible, it could be tempting now to simply add an ARIA lab
 </a>
 ```
 
-If you are really curious and want to learn more about this, skip ahead and read [Labelling elements using aria-label and aria-labelledby](/examples/sensible-aria-usage/label-labelledby).
+정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Labelling elements using aria-label and aria-labelledby](/examples/sensible-aria-usage/label-labelledby).
 
 While this certainly is an improvement over offering no label at all, it is not the technique of choice. This is due to several reasons, some very obvious ones outlined here:
 
@@ -92,7 +92,7 @@ Again, there are traditional techniques to achieve the wanted result that are mu
 </a>
 ```
 
-If you are really curious and want to learn more about this, skip ahead and read [Hiding elements visually by moving them off-screen](/examples/hiding-elements/visually).
+정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Hiding elements visually by moving them off-screen](/examples/hiding-elements/visually).
 
 ### Approach using a real image
 
@@ -149,4 +149,4 @@ So in most cases this holds true: if you face a situation where a screen reader 
 
 Sometimes, developers try to hide focusable elements (or elements that contain focusable children) from screen readers using `aria-hidden`. This leads to unpredictable behaviour in many screen readers, as the browser still allows to focus such elements using the `Tab` key, but because of `aria-hidden` screen readers will not announce it.
 
-If you are really curious and want to learn more about this, skip ahead and read [Hiding elements from screen readers using aria-hidden](/examples/hiding-elements/from-screen-readers).
+정말 궁금하고 이에 대해 더 배우고 싶다면, skip ahead and read [Hiding elements from screen readers using aria-hidden](/examples/hiding-elements/from-screen-readers).

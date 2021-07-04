@@ -1,23 +1,23 @@
 ---
-navigation_title: "Contents Structured"
+navigation_title: "구조화 된 콘텐츠"
 position: 1
 changed: "2021-03-22"
 ---
 
-# Contents Structured
+# 구조화 된 콘텐츠
 
-**This bookmarklet highlights a lot of typical semantic HTML elements, conveying their tag names. This makes inspection of the current page's semantic structure pretty easy.**
+**이 북마클릿은 태그 이름을 전달하는, 많은 일반적인 의미론적 HTML 엘리먼트를 강조 표시합니다. 이는 현재 페이지의 의미론적 구조를 매우 쉽게 검사할 수 있게 합니다.**
 
-## Installation
+## 설치
 
-Go to [bookmarklet.html](_static/bookmarklet.html) and get the bookmarklet there.
+[bookmarklet.html](_static/bookmarklet.html)로 가서 불마클릿을 가져오세요.
 
-## Usage
+## 사용법
 
-Activate the bookmarklet by clicking on it. Then inspect the displayed results and make sure the used tags are semantically meaningful.
+북마클릿을 클릭하여 활성화 하세요. 그 후 표시된 결과를 검사하고 사용 된 태그가 의미론 적으로 유의미한지 확인하세요.
 
-![Results after firing "Contents structured" bookmarklet](_media/results-after-firing-contents-structured-bookmarklet.png)
+!["구조화 된 콘텐츠" 북마클릿을 실행한 결과](_media/results-after-firing-contents-structured-bookmarklet.png)
 
-## Credits
+## 크레딧
 
-This is a slightly enriched version of the bookmarklet [Inhalte gegliedert](http://testen.bitv-test.de/bookmarklets.html). Our version highlights some more elements like lists, tables, links, and forms.
+이것은 북마클릿 [Inhalte gegliedert](http://testen.bitv-test.de/bookmarklets.html)의 약간 강화 된 버전입니다. 우리 버전은 목록, 표, 링크, 양식과 같은 더 많은 엘리먼트를 강조합니다.
